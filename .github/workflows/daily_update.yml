@@ -1,0 +1,37 @@
+name: Daily Predictions Automation
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-predictions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests google-generativeai
+
+      - name: Run Predictions Update Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python update_picks.py
+
+      - name: Commit and Push Updated Data
+        run: |
+          git config --global user.name "StatBet Bot"
+          git config --global user.email "bot@statbet.ai"
+          git add data.json
+          git commit -m "Auto-update daily predictions data" || exit 0
+          git push
