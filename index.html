@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniBet AI — Predictive Sports Analytics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: { bg: '#0b0f19', card: '#111827', border: '#1f2937' }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-bg text-slate-100 font-sans min-h-screen flex flex-col antialiased">
+
+    <!-- Navbar -->
+    <header class="bg-dark-card border-b border-dark-border sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-blue-600 text-white px-3 py-1.5 rounded-xl font-bold text-lg">
+                    <i class="fa-solid fa-brain me-1"></i> OmniBet AI
+                </div>
+                <span class="text-xs px-2 py-1 bg-green-500/10 text-green-400 border border-green-500/20 rounded-full">Automated Daily</span>
+            </div>
+            
+            <!-- Category Switcher Tabs -->
+            <nav class="flex space-x-1 bg-dark-bg p-1 rounded-xl border border-dark-border">
+                <button onclick="switchCategory('football')" id="tab-football" class="cat-tab px-4 py-1.5 rounded-lg text-xs font-bold bg-blue-600 text-white transition">
+                    <i class="fa-solid fa-football me-1"></i> Football
+                </button>
+                <button onclick="switchCategory('tennis')" id="tab-tennis" class="cat-tab px-4 py-1.5 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition">
+                    <i class="fa-solid fa-baseball-bat-ball me-1"></i> Tennis
+                </button>
+                <button onclick="switchCategory('nba')" id="tab-nba" class="cat-tab px-4 py-1.5 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition">
+                    <i class="fa-solid fa-basketball me-1"></i> NBA
+                </button>
+                <button onclick="switchCategory('cs2')" id="tab-cs2" class="cat-tab px-4 py-1.5 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition">
+                    <i class="fa-solid fa-gamepad me-1"></i> CS2 Majors
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-1 max-w-7xl w-full mx-auto px-4 py-8 space-y-8">
+
+        <!-- DAILY GENERATED TICKETS SECTION -->
+        <section>
+            <h2 class="text-xl font-bold text-slate-100 mb-4 flex items-center gap-2">
+                <i class="fa-solid fa-ticket text-amber-500"></i> Daily Multi-League AI Accumulators
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4" id="ticketsGrid">
+                <!-- Auto-populated Daily Tickets (~5x, ~10x, ~25x, ~50x) -->
+            </div>
+        </section>
+
+        <!-- FOOTBALL COUNTRY FILTER -->
+        <section id="footballFilterSection" class="bg-dark-card p-4 rounded-xl border border-dark-border flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <label class="text-xs font-semibold text-slate-400 uppercase">Select Country / Top League:</label>
+                <select id="countryFilter" onchange="renderCategoryMatches()" class="bg-dark-bg text-sm border border-dark-border text-slate-200 rounded-lg px-3 py-1.5 outline-none">
+                    <option value="ALL">All Countries & Top Leagues</option>
+                    <option value="ENG">England (Premier League)</option>
+                    <option value="ESP">Spain (La Liga)</option>
+                    <option value="ITA">Italy (Serie A)</option>
+                    <option value="GER">Germany (Bundesliga)</option>
+                    <option value="FRA">France (Ligue 1)</option>
+                    <option value="ROU">Romania (SuperLiga)</option>
+                </select>
+            </div>
+            <span class="text-xs text-slate-400"><i class="fa-solid fa-shield-halved text-blue-400"></i> Filtered by Highest Statistical Safety</span>
+        </section>
+
+        <!-- CATEGORY MATCHES GRID -->
+        <section>
+            <h2 class="text-xl font-bold text-slate-100 mb-4 flex items-center gap-2" id="categoryTitle">
+                <i class="fa-solid fa-list-check text-blue-500"></i> Today's Approved Single Picks
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="matchesGrid">
+                <!-- Match cards load dynamically -->
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        let appData = {
+            tickets: [
+                { title: "Safe Anchor Slip", target_odds: "5.20", risk: "Low", picks: ["Arsenal vs Villa - Over 1.5 Goals", "Barcelona - Win", "Djokovic - Match Winner"] },
+                { title: "Value Combo Slip", target_odds: "10.50", risk: "Medium", picks: ["Real Madrid - Win & Over 2.5", "Sinner 2-0 Sets", "FAZE vs BLAST - FAZE Win", "Lakers +5.5 Spread"] },
+                { title: "High-Yield Slip", target_odds: "24.80", risk: "High", picks: ["Mbappe Over 1.5 Shots on Target", "Inter vs Milan - Over 22.5 Fouls", "Navi CS2 - Win", "Celtics Over 112.5 Points"] },
+                { title: "Speculative Loto Ticket", target_odds: "52.00", risk: "Extreme", picks: ["Haaland - First Goalscorer", "Roma vs Lazio - Red Card Issued", "Alcaraz - 3-2 Exact Sets", "Vitality CS2 - 2-0 Score"] }
+            ],
+            matches: [
+                { category: "football", country: "ENG", match: "Aston Villa vs Arsenal", pick: "Arsenal 1X & Over 1.5 Goals", odds: 1.45, confidence: 84, market: "Goals/Safety" },
+                { category: "football", country: "ESP", match: "Barcelona vs Rayo Vallecano", pick: "Barcelona Win & Over 2.5", odds: 1.65, confidence: 81, market: "Result + Goals" },
+                { category: "tennis", country: "GLOBAL", match: "J. Sinner vs C. Alcaraz", pick: "Over 21.5 Total Games", odds: 1.80, confidence: 76, market: "Games Props" },
+                { category: "cs2", country: "GLOBAL", match: "FaZe Clan vs NAVI (BLAST Major)", pick: "FaZe Map 1 Winner", odds: 1.90, confidence: 72, market: "Esports Map 1" },
+                { category: "nba", country: "USA", match: "Lakers vs Celtics", pick: "Over 224.5 Total Points", odds: 1.88, confidence: 75, market: "Points Totals" }
+            ]
+        };
+
+        let currentCategory = 'football';
+
+        async function loadDailyData() {
+            try {
+                const res = await fetch('data.json');
+                if (res.ok) {
+                    appData = await res.json();
+                }
+            } catch (e) {
+                console.log("Using local dataset placeholder.");
+            }
+            renderTickets();
+            renderCategoryMatches();
+        }
+
+        function switchCategory(cat) {
+            currentCategory = cat;
+            document.querySelectorAll('.cat-tab').forEach(b => b.className = "cat-tab px-4 py-1.5 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition");
+            document.getElementById(`tab-${cat}`).className = "cat-tab px-4 py-1.5 rounded-lg text-xs font-bold bg-blue-600 text-white transition";
+            
+            document.getElementById('footballFilterSection').style.display = cat === 'football' ? 'flex' : 'none';
+            renderCategoryMatches();
+        }
+
+        function renderTickets() {
+            const grid = document.getElementById('ticketsGrid');
+            grid.innerHTML = '';
+            appData.tickets.forEach(ticket => {
+                grid.innerHTML += `
+                    <div class="bg-dark-card border border-dark-border rounded-xl p-4 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-xs font-bold text-amber-400">${ticket.title}</span>
+                                <span class="text-xs bg-amber-500/10 border border-amber-500/20 px-2 py-0.5 rounded text-amber-300 font-bold">~${ticket.target_odds} Odds</span>
+                            </div>
+                            <ul class="text-xs text-slate-300 space-y-1.5 my-3 border-y border-dark-border py-2">
+                                ${ticket.picks.map(p => `<li class="flex items-center gap-1.5"><i class="fa-solid fa-check text-green-400 text-[10px]"></i> ${p}</li>`).join('')}
+                            </ul>
+                        </div>
+                        <div class="text-[11px] text-slate-400 flex justify-between">
+                            <span>Risk: <strong>${ticket.risk}</strong></span>
+                            <span class="text-blue-400 cursor-pointer">Copy Slip</span>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        function renderCategoryMatches() {
+            const grid = document.getElementById('matchesGrid');
+            const country = document.getElementById('countryFilter').value;
+            grid.innerHTML = '';
+
+            const filtered = appData.matches.filter(m => {
+                const catMatch = m.category === currentCategory;
+                const countryMatch = currentCategory !== 'football' || country === 'ALL' || m.country === country;
+                return catMatch && countryMatch;
+            });
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `<div class="col-span-2 text-center py-8 text-slate-500 text-sm">No matches available for this category/filter today.</div>`;
+                return;
+            }
+
+            filtered.forEach(m => {
+                grid.innerHTML += `
+                    <div class="bg-dark-card border border-dark-border rounded-xl p-4 flex justify-between items-center">
+                        <div>
+                            <span class="text-[10px] bg-slate-800 text-slate-400 px-2 py-0.5 rounded border border-slate-700 uppercase font-semibold">${m.market}</span>
+                            <h4 class="text-sm font-bold text-slate-100 mt-1">${m.match}</h4>
+                            <div class="text-xs text-blue-400 font-semibold mt-1">Pick: ${m.pick}</div>
+                        </div>
+                        <div class="text-right">
+                            <div class="text-base font-extrabold text-green-400">${m.confidence}%</div>
+                            <div class="text-xs text-slate-400">@${m.odds}</div>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        loadDailyData();
+    </script>
+</body>
+</html>
