@@ -1,28 +1,53 @@
 {
+  "api_quota_exceeded": true,
+  "error_msg": "404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.",
   "tickets": [
     {
       "title": "Safe Anchor Slip",
       "target_odds": "5.20",
       "risk": "Low",
-      "picks": ["Arsenal vs Villa - Over 1.5 Goals", "Barcelona - Win", "Djokovic - Match Winner"]
+      "date_range": "Today Only",
+      "picks": [
+        "Arsenal vs Villa - Over 1.5 Goals",
+        "Barcelona Win",
+        "Djokovic Match Winner"
+      ]
     },
     {
       "title": "Value Combo Slip",
       "target_odds": "10.50",
       "risk": "Medium",
-      "picks": ["Real Madrid - Win & Over 2.5", "Sinner 2-0 Sets", "FAZE vs NAVI - Map 1", "Lakers +5.5 Spread"]
+      "date_range": "Today Only",
+      "picks": [
+        "Real Madrid Win & Over 2.5",
+        "Sinner 2-0 Sets",
+        "FAZE Map 1 Winner",
+        "Lakers +5.5"
+      ]
     },
     {
       "title": "High-Yield Slip",
       "target_odds": "24.80",
       "risk": "High",
-      "picks": ["Inter vs Milan - Over 22.5 Fouls", "Mbappe Over 1.5 Shots on Target", "Celtics Over 112.5 Points", "Vitality CS2 Win"]
+      "date_range": "Next 3 Days",
+      "picks": [
+        "Inter vs Milan Over 22.5 Fouls",
+        "Mbappe Over 1.5 Shots",
+        "Celtics Over 112.5 Points",
+        "Vitality CS2 Win"
+      ]
     },
     {
       "title": "Speculative Loto Ticket",
       "target_odds": "52.00",
       "risk": "Extreme",
-      "picks": ["Haaland First Goalscorer", "Roma vs Lazio Red Card Issued", "Alcaraz 3-2 Exact Sets", "G2 Esports 2-0 Score"]
+      "date_range": "Next 3 Days",
+      "picks": [
+        "Haaland First Goalscorer",
+        "Roma vs Lazio Red Card",
+        "Alcaraz 3-2 Sets",
+        "G2 Esports 2-0 Score"
+      ]
     }
   ],
   "matches": [
@@ -37,12 +62,30 @@
     },
     {
       "category": "football",
+      "country": "ENG",
+      "match": "Liverpool vs Chelsea",
+      "pick": "Both Teams To Score",
+      "odds": 1.57,
+      "confidence": 82,
+      "market": "BTTS"
+    },
+    {
+      "category": "football",
       "country": "ESP",
       "match": "Barcelona vs Rayo Vallecano",
       "pick": "Barcelona Win & Over 2.5",
       "odds": 1.65,
       "confidence": 81,
       "market": "Result + Goals"
+    },
+    {
+      "category": "football",
+      "country": "ESP",
+      "match": "Real Madrid vs Girona",
+      "pick": "Real Madrid Over 1.5 Team Goals",
+      "odds": 1.5,
+      "confidence": 85,
+      "market": "Team Goals"
     },
     {
       "category": "football",
@@ -57,10 +100,19 @@
       "category": "football",
       "country": "GER",
       "match": "Bayern Munich vs Frankfurt",
-      "pick": "Over 2.5 Goals & Both Teams To Score",
+      "pick": "Over 2.5 Goals & BTTS",
       "odds": 1.72,
       "confidence": 82,
       "market": "Goals Props"
+    },
+    {
+      "category": "football",
+      "country": "FRA",
+      "match": "PSG vs Lille",
+      "pick": "PSG Win",
+      "odds": 1.48,
+      "confidence": 83,
+      "market": "Match Winner"
     },
     {
       "category": "football",
@@ -76,16 +128,16 @@
       "country": "GLOBAL",
       "match": "J. Sinner vs C. Alcaraz",
       "pick": "Over 21.5 Total Games",
-      "odds": 1.80,
+      "odds": 1.8,
       "confidence": 76,
       "market": "Games Props"
     },
     {
       "category": "cs2",
       "country": "GLOBAL",
-      "match": "FaZe Clan vs NAVI (BLAST Major)",
+      "match": "FaZe Clan vs NAVI",
       "pick": "FaZe Map 1 Winner",
-      "odds": 1.90,
+      "odds": 1.9,
       "confidence": 72,
       "market": "Esports Map 1"
     },
