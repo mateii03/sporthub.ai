@@ -1,225 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OmniBet AI — Predictive Sports Analytics</title>
-    <script src="[https://cdn.tailwindcss.com](https://cdn.tailwindcss.com)"></script>
-    <link rel="stylesheet" href="[https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css)">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OmniBet AI — Predictive Sports Analytics</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="bg-slate-900 text-slate-100 min-h-screen font-sans">
 
-    <!-- Quota Exceeded Red Alert Banner -->
-    <div id="quotaWarning" class="hidden bg-rose-600 text-white px-4 py-3 text-center font-semibold flex items-center justify-center gap-2">
-        <i class="fa-solid fa-triangle-exclamation text-xl"></i>
-        <span>API Quota Exceeded or Key Unconfigured. Displaying cached system state.</span>
-        <button onclick="openApiModal()" class="underline ms-2 hover:text-rose-200">Manage Keys</button>
+<!-- Quota Exceeded Red Alert Banner -->
+<div id="quotaWarning" class="hidden bg-rose-600 text-white px-4 py-3 text-center font-semibold flex items-center justify-center gap-2">
+  <i class="fa-solid fa-triangle-exclamation text-xl"></i>
+  <span>API Quota Exceeded or Key Unconfigured. Displaying cached system state.</span>
+  <button onclick="openApiModal()" class="underline ms-2 hover:text-rose-200">Manage Keys</button>
+</div>
+
+<!-- Navigation Header -->
+<header class="border-b border-slate-800 bg-slate-950/80 sticky top-0 z-40 backdrop-blur">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+    <div class="flex items-center space-x-3">
+      <div class="bg-blue-600 text-white p-2 rounded-xl font-bold flex items-center">
+        <i class="fa-solid fa-brain me-2 text-xl"></i> OmniBet AI
+      </div>
+      <span class="text-xs text-slate-400 hidden sm:inline">Multi-League Predictions</span>
     </div>
-
-    <!-- Navigation Header -->
-    <header class="border-b border-slate-800 bg-slate-950/80 sticky top-0 z-40 backdrop-blur">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <div class="flex items-center space-x-3">
-                <div class="bg-blue-600 text-white p-2 rounded-xl font-bold flex items-center">
-                    <i class="fa-solid fa-brain me-2 text-xl"></i> OmniBet AI
-                </div>
-                <span class="text-xs text-slate-400 hidden sm:inline">Multi-League Predictions</span>
-            </div>
-            
-            <div class="flex items-center space-x-3">
-                <button onclick="openApiModal()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs px-3 py-2 rounded-lg border border-slate-700 flex items-center gap-2">
-                    <i class="fa-solid fa-key text-amber-400"></i> API Settings
-                </button>
-            </div>
-        </div>
-    </header>
-
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
-
-        <!-- Section 1: Multi-League Accumulator Tickets -->
-        <section>
-            <div class="flex items-center justify-between mb-6">
-                <div>
-                    <h2 class="text-2xl font-bold text-white flex items-center gap-2">
-                        <i class="fa-solid fa-layer-group text-blue-500"></i> Optimized Accumulator Slips
-                    </h2>
-                    <p class="text-xs text-slate-400">Strict date boundary enforcement per target multiplier</p>
-                </div>
-            </div>
-
-            <div id="ticketsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <!-- Dynamic Tickets Injected Here -->
-            </div>
-        </section>
-
-        <!-- Section 2: Filterable Single Picks (12-16 Picks) -->
-        <section>
-            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
-                <div>
-                    <h2 class="text-2xl font-bold text-white flex items-center gap-2">
-                        <i class="fa-solid fa-bullseye text-emerald-500"></i> Approved Single Picks
-                    </h2>
-                    <p class="text-xs text-slate-400">Football (ENG, ESP, ITA, GER, FRA, ROU), Tennis, NBA, CS2</p>
-                </div>
-
-                <!-- Filters -->
-                <div class="flex flex-wrap gap-2" id="categoryFilters">
-                    <button onclick="filterPicks('all')" class="filter-btn active bg-blue-600 text-white px-3 py-1.5 rounded-lg text-xs font-semibold">All Matches</button>
-                    <button onclick="filterPicks('football')" class="filter-btn bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg text-xs font-semibold">Football</button>
-                    <button onclick="filterPicks('tennis')" class="filter-btn bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg text-xs font-semibold">Tennis</button>
-                    <button onclick="filterPicks('nba')" class="filter-btn bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg text-xs font-semibold">NBA</button>
-                    <button onclick="filterPicks('cs2')" class="filter-btn bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg text-xs font-semibold">CS2</button>
-                </div>
-            </div>
-
-            <!-- 3-Column Grid for Expanded Picks -->
-            <div id="matchesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <!-- Matches Injected Here -->
-            </div>
-        </section>
-    </main>
-
-    <!-- API Key Settings Modal -->
-    <div id="apiModal" class="fixed inset-0 bg-black/70 backdrop-blur-sm hidden z-50 flex items-center justify-center p-4">
-        <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 max-w-md w-full space-y-4">
-            <div class="flex justify-between items-center border-b border-slate-700 pb-3">
-                <h3 class="text-lg font-bold text-white flex items-center gap-2">
-                    <i class="fa-solid fa-sliders text-blue-400"></i> API Credentials Management
-                </h3>
-                <button onclick="closeApiModal()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-xl"></i></button>
-            </div>
-            <p class="text-xs text-slate-300">Override environment settings or view status of client-side requests.</p>
-            
-            <div class="space-y-3">
-                <div>
-                    <label class="block text-xs font-medium text-slate-400 mb-1">Gemini API Key</label>
-                    <input type="password" id="customGeminiKey" placeholder="AIzaSy..." class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:outline-none focus:border-blue-500">
-                </div>
-                <div>
-                    <label class="block text-xs font-medium text-slate-400 mb-1">Odds API Key</label>
-                    <input type="password" id="customOddsKey" placeholder="e.g. 8a7f9b..." class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:outline-none focus:border-blue-500">
-                </div>
-            </div>
-
-            <div class="pt-2 flex justify-end gap-2">
-                <button onclick="closeApiModal()" class="px-4 py-2 bg-slate-700 text-xs rounded-lg hover:bg-slate-600">Cancel</button>
-                <button onclick="saveApiKeys()" class="px-4 py-2 bg-blue-600 text-xs rounded-lg font-semibold hover:bg-blue-500">Save Keys</button>
-            </div>
-        </div>
+    <div class="flex items-center space-x-3">
+      <button onclick="openApiModal()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs px-3 py-2 rounded-lg border border-slate-700 flex items-center gap-2">
+        <i class="fa-solid fa-key text-amber-400"></i> API Settings
+      </button>
     </div>
+  </div>
+</header>
 
-    <script>
-        let appData = { tickets: [], matches: [] };
-        let activeCategory = 'all';
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
 
-        async function initApp() {
-            try {
-                // Cache-buster parameter ensures fresh fetch from GitHub Pages
-                const res = await fetch('./data.json?t=' + Date.now());
-                if (!res.ok) throw new Error("HTTP error " + res.status);
-                appData = await res.json();
-                
-                if (appData.api_quota_exceeded) {
-                    document.getElementById('quotaWarning').classList.remove('hidden');
-                }
-            } catch (e) {
-                console.warn("Could not load data.json, check GitHub Actions:", e);
-                document.getElementById('quotaWarning').classList.remove('hidden');
-            }
+  <!-- Section 1: Multi-League Accumulator Tickets -->
+  <section>
+    <div class="flex items-center justify-between mb-6">
+      <div>
+        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-layer-group text-blue-500"></i> Optimized Accumulator Slips
+        </h2>
+        <p class="text-xs text-slate-400">Strict date boundary enforcement per target multiplier</p>
+      </div>
+    </div>
+    <div id="ticketsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <!-- Dynamic Tickets Injected Here -->
+    </div>
+  </section>
 
-            renderTickets();
-            renderMatches();
-        }
+  <!-- Section 2: Filterable Single Picks (12-16 Picks) -->
+  <section>
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+      <div>
+        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-bullseye text-emerald-500"></i> Approved Single Picks
+        </h2>
+        <p class="text-xs text-slate-400">Football (ENG, ESP, ITA, GER, FRA, ROU), Tennis, NBA, CS2</p>
+      </div>
+      <!-- Filters -->
+      <div class="flex flex-wrap gap-2" id="categoryFilters">
+        <button onclick="filterPicks('all', event)" class="filter-btn active bg-blue-600 text-white px-3 py-1.5 rounded-lg text-xs font-semibold">All Matches</button>
+        <button onclick="filterPicks('football', event)" class="filter-btn bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg text-xs font-semibold">Football</button>
+        <button onclick="filterPicks('tennis', event)" class="filter-btn bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg text-xs font-semibold">Tennis</button>
+        <button onclick="filterPicks('nba', event)" class="filter-btn bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg text-xs font-semibold">NBA</button>
+        <button onclick="filterPicks('cs2', event)" class="filter-btn bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg text-xs font-semibold">CS2</button>
+      </div>
+    </div>
+    <!-- 3-Column Grid for Expanded Picks -->
+    <div id="matchesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <!-- Matches Injected Here -->
+    </div>
+  </section>
 
-        function renderTickets() {
-            const container = document.getElementById('ticketsGrid');
-            if (!appData.tickets || appData.tickets.length === 0) {
-                container.innerHTML = `<div class="col-span-full p-4 bg-slate-800/50 rounded-xl text-center text-xs text-slate-400">No accumulator slips generated. Ensure GEMINI_API_KEY is active.</div>`;
-                return;
-            }
+</main>
 
-            container.innerHTML = appData.tickets.map(t => {
-                const badgeColor = t.date_range.includes('Today') ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' : 'bg-amber-500/20 text-amber-400 border-amber-500/30';
-                return `
-                    <div class="bg-slate-800/80 border border-slate-700 rounded-2xl p-5 flex flex-col justify-between hover:border-slate-600 transition">
-                        <div>
-                            <div class="flex justify-between items-start mb-3">
-                                <div>
-                                    <span class="text-[10px] font-bold px-2 py-0.5 rounded border ${badgeColor}">${t.date_range}</span>
-                                    <h3 class="font-bold text-base text-white mt-2">${t.title}</h3>
-                                </div>
-                                <span class="bg-blue-600/20 text-blue-400 text-xs font-bold px-2 py-1 rounded-lg border border-blue-500/30">${t.target_odds}x</span>
-                            </div>
-                            <ul class="space-y-2 my-4">
-                                ${t.picks.map(p => `
-                                    <li class="text-xs text-slate-300 flex items-center gap-2">
-                                        <i class="fa-solid fa-circle-check text-blue-500 text-[10px]"></i> ${p}
-                                    </li>
-                                `).join('')}
-                            </ul>
-                        </div>
-                        <div class="pt-3 border-t border-slate-700/50 flex justify-between items-center text-[11px] text-slate-400">
-                            <span>Risk Tier: <strong class="text-slate-200">${t.risk}</strong></span>
-                            <i class="fa-solid fa-arrow-right text-slate-500"></i>
-                        </div>
-                    </div>
-                `;
-            }).join('');
-        }
+<!-- API Key Settings Modal -->
+<div id="apiModal" class="fixed inset-0 bg-black/70 backdrop-blur-sm hidden z-50 flex items-center justify-center p-4">
+  <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 max-w-md w-full space-y-4">
+    <div class="flex justify-between items-center border-b border-slate-700 pb-3">
+      <h3 class="text-lg font-bold text-white flex items-center gap-2">
+        <i class="fa-solid fa-sliders text-blue-400"></i> API Credentials Management
+      </h3>
+      <button onclick="closeApiModal()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-xl"></i></button>
+    </div>
+    <p class="text-xs text-slate-300">Override environment settings or view status of client-side requests.</p>
+    <div class="space-y-3">
+      <div>
+        <label class="block text-xs font-medium text-slate-400 mb-1">Gemini API Key</label>
+        <input type="password" id="customGeminiKey" placeholder="AIzaSy..." class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:outline-none focus:border-blue-500">
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-slate-400 mb-1">Odds API Key</label>
+        <input type="password" id="customOddsKey" placeholder="e.g. 8a7f9b..." class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:outline-none focus:border-blue-500">
+      </div>
+    </div>
+    <div class="pt-2 flex justify-end gap-2">
+      <button onclick="closeApiModal()" class="px-4 py-2 bg-slate-700 text-xs rounded-lg hover:bg-slate-600">Cancel</button>
+      <button onclick="saveApiKeys()" class="px-4 py-2 bg-blue-600 text-xs rounded-lg font-semibold hover:bg-blue-500">Save Keys</button>
+    </div>
+  </div>
+</div>
 
-        function renderMatches() {
-            const container = document.getElementById('matchesGrid');
-            const filtered = activeCategory === 'all' 
-                ? appData.matches 
-                : appData.matches.filter(m => m.category.toLowerCase() === activeCategory);
+<script>
+let appData = { tickets: [], matches: [] };
+let activeCategory = 'all';
 
-            if (!filtered || filtered.length === 0) {
-                container.innerHTML = `<div class="col-span-full p-8 text-center text-xs text-slate-400">No matches found for category "${activeCategory}".</div>`;
-                return;
-            }
+async function initApp() {
+  try {
+    // Cache-buster parameter ensures fresh fetch from GitHub Pages
+    const res = await fetch('./data.json?t=' + Date.now());
+    if (!res.ok) throw new Error("HTTP error " + res.status);
+    appData = await res.json();
+    if (appData.api_quota_exceeded) {
+      document.getElementById('quotaWarning').classList.remove('hidden');
+    }
+  } catch (e) {
+    console.warn("Could not load data.json, check GitHub Actions:", e);
+    document.getElementById('quotaWarning').classList.remove('hidden');
+  }
+  renderTickets();
+  renderMatches();
+}
 
-            container.innerHTML = filtered.map(m => `
-                <div class="bg-slate-800/80 border border-slate-700/80 rounded-xl p-4 hover:border-blue-500/50 transition">
-                    <div class="flex justify-between items-center text-[11px] text-slate-400 mb-2">
-                        <span class="uppercase font-bold tracking-wider text-blue-400">${m.country || 'INT'} &bull; ${m.category}</span>
-                        <span class="bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded border border-emerald-500/20 font-medium">Today</span>
-                    </div>
-                    <h4 class="font-bold text-sm text-white mb-2">${m.match}</h4>
-                    <div class="bg-slate-900/60 p-2.5 rounded-lg flex justify-between items-center border border-slate-800 mb-3">
-                        <span class="text-xs text-slate-300 font-medium">${m.pick}</span>
-                        <span class="text-xs font-bold text-emerald-400 bg-emerald-950/40 px-2 py-0.5 rounded">${m.odds}</span>
-                    </div>
-                    <div class="flex justify-between items-center text-[11px] text-slate-400">
-                        <span>Confidence: <strong class="text-blue-400">${m.confidence}%</strong></span>
-                        <span class="text-slate-500">${m.market || 'Market Pick'}</span>
-                    </div>
-                </div>
-            `).join('');
-        }
+function renderTickets() {
+  const container = document.getElementById('ticketsGrid');
+  if (!appData.tickets || appData.tickets.length === 0) {
+    container.innerHTML = `<div class="col-span-full p-4 bg-slate-800/50 rounded-xl text-center text-xs text-slate-400">No accumulator slips generated. Ensure GEMINI_API_KEY is active.</div>`;
+    return;
+  }
+  container.innerHTML = appData.tickets.map(t => {
+    const badgeColor = t.date_range.includes('Today') ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' : 'bg-amber-500/20 text-amber-400 border-amber-500/30';
+    return `
+      <div class="bg-slate-800/80 border border-slate-700 rounded-2xl p-5 flex flex-col justify-between hover:border-slate-600 transition">
+        <div>
+          <div class="flex justify-between items-start mb-3">
+            <div>
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded border ${badgeColor}">${t.date_range}</span>
+              <h3 class="font-bold text-base text-white mt-2">${t.title}</h3>
+            </div>
+            <span class="bg-blue-600/20 text-blue-400 text-xs font-bold px-2 py-1 rounded-lg border border-blue-500/30">${t.target_odds}x</span>
+          </div>
+          <ul class="space-y-2 my-4">
+            ${t.picks.map(p => `
+              <li class="text-xs text-slate-300 flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-blue-500 text-[10px]"></i> ${p}
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+        <div class="pt-3 border-t border-slate-700/50 flex justify-between items-center text-[11px] text-slate-400">
+          <span>Risk Tier: <strong class="text-slate-200">${t.risk}</strong></span>
+          <i class="fa-solid fa-arrow-right text-slate-500"></i>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
 
-        function filterPicks(cat) {
-            activeCategory = cat;
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.classList.remove('bg-blue-600', 'text-white');
-                btn.classList.add('bg-slate-800', 'text-slate-300');
-            });
-            event.currentTarget.classList.remove('bg-slate-800', 'text-slate-300');
-            event.currentTarget.classList.add('bg-blue-600', 'text-white');
-            renderMatches();
-        }
+function renderMatches() {
+  const container = document.getElementById('matchesGrid');
+  const filtered = activeCategory === 'all'
+    ? appData.matches
+    : appData.matches.filter(m => m.category.toLowerCase() === activeCategory);
 
-        function openApiModal() { document.getElementById('apiModal').classList.remove('hidden'); }
-        function closeApiModal() { document.getElementById('apiModal').classList.add('hidden'); }
-        function saveApiKeys() {
-            const gKey = document.getElementById('customGeminiKey').value;
-            const oKey = document.getElementById('customOddsKey').value;
-            if(gKey) localStorage.setItem('GEMINI_API_KEY', gKey);
-            if(oKey) localStorage.setItem('ODDS_API_KEY', oKey);
-            closeApiModal();
-            alert('Keys saved to local browser storage.');
-        }
+  if (!filtered || filtered.length === 0) {
+    container.innerHTML = `<div class="col-span-full p-8 text-center text-xs text-slate-400">No matches found for category "${activeCategory}".</div>`;
+    return;
+  }
 
-        window.onload = initApp;
-    </script>
+  container.innerHTML = filtered.map(m => `
+    <div class="bg-slate-800/80 border border-slate-700/80 rounded-xl p-4 hover:border-blue-500/50 transition">
+      <div class="flex justify-between items-center text-[11px] text-slate-400 mb-2">
+        <span class="uppercase font-bold tracking-wider text-blue-400">${m.country || 'INT'} &bull; ${m.category}</span>
+        <span class="bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded border border-emerald-500/20 font-medium">Today</span>
+      </div>
+      <h4 class="font-bold text-sm text-white mb-2">${m.match}</h4>
+      <div class="bg-slate-900/60 p-2.5 rounded-lg flex justify-between items-center border border-slate-800 mb-3">
+        <span class="text-xs text-slate-300 font-medium">${m.pick}</span>
+        <span class="text-xs font-bold text-emerald-400 bg-emerald-950/40 px-2 py-0.5 rounded">${m.odds}</span>
+      </div>
+      <div class="flex justify-between items-center text-[11px] text-slate-400">
+        <span>Confidence: <strong class="text-blue-400">${m.confidence}%</strong></span>
+        <span class="text-slate-500">${m.market || 'Market Pick'}</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+function filterPicks(cat, evt) {
+  activeCategory = cat;
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.classList.remove('bg-blue-600', 'text-white');
+    btn.classList.add('bg-slate-800', 'text-slate-300');
+  });
+
+  // Use the event passed explicitly from onclick rather than the deprecated
+  // global window.event (which Firefox doesn't support at all).
+  const target = evt ? evt.currentTarget : document.querySelector(`.filter-btn[onclick*="'${cat}'"]`);
+  if (target) {
+    target.classList.remove('bg-slate-800', 'text-slate-300');
+    target.classList.add('bg-blue-600', 'text-white');
+  }
+
+  renderMatches();
+}
+
+function openApiModal() { document.getElementById('apiModal').classList.remove('hidden'); }
+function closeApiModal() { document.getElementById('apiModal').classList.add('hidden'); }
+
+function saveApiKeys() {
+  const gKey = document.getElementById('customGeminiKey').value;
+  const oKey = document.getElementById('customOddsKey').value;
+  if(gKey) localStorage.setItem('GEMINI_API_KEY', gKey);
+  if(oKey) localStorage.setItem('ODDS_API_KEY', oKey);
+  closeApiModal();
+  alert('Keys saved to local browser storage.');
+}
+
+window.onload = initApp;
+</script>
 </body>
 </html>
