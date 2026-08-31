@@ -94,13 +94,16 @@
         let appData = {
             tickets: [
                 { title: "Safe Anchor Slip", target_odds: "5.20", risk: "Low", picks: ["Arsenal vs Villa - Over 1.5 Goals", "Barcelona - Win", "Djokovic - Match Winner"] },
-                { title: "Value Combo Slip", target_odds: "10.50", risk: "Medium", picks: ["Real Madrid - Win & Over 2.5", "Sinner 2-0 Sets", "FAZE vs BLAST - FAZE Win", "Lakers +5.5 Spread"] },
-                { title: "High-Yield Slip", target_odds: "24.80", risk: "High", picks: ["Mbappe Over 1.5 Shots on Target", "Inter vs Milan - Over 22.5 Fouls", "Navi CS2 - Win", "Celtics Over 112.5 Points"] },
-                { title: "Speculative Loto Ticket", target_odds: "52.00", risk: "Extreme", picks: ["Haaland - First Goalscorer", "Roma vs Lazio - Red Card Issued", "Alcaraz - 3-2 Exact Sets", "Vitality CS2 - 2-0 Score"] }
+                { title: "Value Combo Slip", target_odds: "10.50", risk: "Medium", picks: ["Real Madrid - Win & Over 2.5", "Sinner 2-0 Sets", "FAZE vs NAVI - Map 1", "Lakers +5.5 Spread"] },
+                { title: "High-Yield Slip", target_odds: "24.80", risk: "High", picks: ["Inter vs Milan - Over 22.5 Fouls", "Mbappe Over 1.5 Shots on Target", "Celtics Over 112.5 Points", "Vitality CS2 Win"] },
+                { title: "Speculative Loto Ticket", target_odds: "52.00", risk: "Extreme", picks: ["Haaland First Goalscorer", "Roma vs Lazio Red Card Issued", "Alcaraz 3-2 Exact Sets", "G2 Esports 2-0 Score"] }
             ],
             matches: [
                 { category: "football", country: "ENG", match: "Aston Villa vs Arsenal", pick: "Arsenal 1X & Over 1.5 Goals", odds: 1.45, confidence: 84, market: "Goals/Safety" },
                 { category: "football", country: "ESP", match: "Barcelona vs Rayo Vallecano", pick: "Barcelona Win & Over 2.5", odds: 1.65, confidence: 81, market: "Result + Goals" },
+                { category: "football", country: "ITA", match: "Atalanta vs Bologna", pick: "Atalanta 1X & Over 1.5 Goals", odds: 1.55, confidence: 79, market: "Safety Combo" },
+                { category: "football", country: "GER", match: "Bayern Munich vs Frankfurt", pick: "Over 2.5 Goals & Both Teams To Score", odds: 1.72, confidence: 82, market: "Goals Props" },
+                { category: "football", country: "ROU", match: "Rapid Bucharest vs U Craiova", pick: "Over 8.5 Corners Total", odds: 1.85, confidence: 74, market: "Corners Props" },
                 { category: "tennis", country: "GLOBAL", match: "J. Sinner vs C. Alcaraz", pick: "Over 21.5 Total Games", odds: 1.80, confidence: 76, market: "Games Props" },
                 { category: "cs2", country: "GLOBAL", match: "FaZe Clan vs NAVI (BLAST Major)", pick: "FaZe Map 1 Winner", odds: 1.90, confidence: 72, market: "Esports Map 1" },
                 { category: "nba", country: "USA", match: "Lakers vs Celtics", pick: "Over 224.5 Total Points", odds: 1.88, confidence: 75, market: "Points Totals" }
@@ -113,10 +116,13 @@
             try {
                 const res = await fetch('data.json');
                 if (res.ok) {
-                    appData = await res.json();
+                    const data = await res.json();
+                    if (data.matches && data.matches.length > 0) {
+                        appData = data;
+                    }
                 }
             } catch (e) {
-                console.log("Using local dataset placeholder.");
+                console.log("Using default fallback bets.");
             }
             renderTickets();
             renderCategoryMatches();
