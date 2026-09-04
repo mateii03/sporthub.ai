@@ -1,136 +1,130 @@
 {
   "tickets": [
     {
-      "ticket_title": "Safe Anchor Slip",
-      "target_odds": "4.98",
+      "name": "Safe Anchor Slip",
+      "target_odds": 5.08,
       "risk": "Low",
       "date_range": "Today Only",
       "picks": [
         {
-          "match": "Real Sociedad vs Celta Vigo",
-          "pick": "Real Sociedad Double Chance (1X)",
-          "odds": 1.25,
-          "category": "football"
+          "match": "Ipswich Town vs Liverpool",
+          "pick": "Liverpool to Win",
+          "market": "Full Time Result",
+          "odds": 1.48
         },
         {
-          "match": "Jannik Sinner vs Frances Tiafoe",
-          "pick": "Jannik Sinner To Win",
-          "odds": 1.35,
-          "category": "tennis"
+          "match": "Real Betis vs Real Madrid",
+          "pick": "Real Madrid to Win",
+          "market": "Full Time Result",
+          "odds": 1.4
         },
         {
-          "match": "Carlos Alcaraz vs Cameron Norrie",
-          "pick": "Carlos Alcaraz -1.5 Sets",
-          "odds": 1.45,
-          "category": "tennis"
+          "match": "VfB Stuttgart vs 1. FC K\u00f6ln",
+          "pick": "VfB Stuttgart to Win",
+          "market": "Full Time Result",
+          "odds": 1.49
         },
         {
-          "match": "MOUZ vs HEROIC",
-          "pick": "MOUZ Match Winner",
-          "odds": 1.55,
-          "category": "cs2"
-        },
-        {
-          "match": "PSG vs Lens",
-          "pick": "PSG Moneyline",
-          "odds": 1.31,
-          "category": "football"
+          "match": "Genoa vs Como",
+          "pick": "Under 2.5 Goals",
+          "market": "Total Goals",
+          "odds": 1.65
         }
       ]
     },
     {
-      "ticket_title": "Value Combo Slip",
-      "target_odds": "9.94",
+      "name": "Value Combo Slip",
+      "target_odds": 10.15,
       "risk": "Medium",
       "date_range": "Today Only",
       "picks": [
         {
-          "match": "Real Sociedad vs Celta Vigo",
-          "pick": "Real Sociedad Moneyline",
-          "odds": 1.88,
-          "category": "football"
+          "match": "Ipswich Town vs Liverpool",
+          "pick": "Liverpool & Over 2.5 Goals",
+          "market": "Result & Both Teams to Score / Total",
+          "odds": 1.82
         },
         {
-          "match": "Aryna Sabalenka vs Qinwen Zheng",
-          "pick": "Aryna Sabalenka -2.5 Games",
-          "odds": 1.62,
-          "category": "tennis"
+          "match": "Real Betis vs Real Madrid",
+          "pick": "Real Madrid & Both Teams to Score",
+          "market": "Result & Both Teams to Score",
+          "odds": 2.55
         },
         {
-          "match": "Team Vitality vs Natus Vincere",
-          "pick": "Team Vitality Map 1 Winner",
-          "odds": 1.75,
-          "category": "cs2"
+          "match": "VfB Stuttgart vs 1. FC K\u00f6ln",
+          "pick": "VfB Stuttgart -1.5 Asian Handicap",
+          "market": "Asian Handicap",
+          "odds": 2.2
         },
         {
-          "match": "FCSB vs CFR Cluj",
-          "pick": "Both Teams To Score (BTTS)",
-          "odds": 1.86,
-          "category": "football"
+          "match": "Genoa vs Como",
+          "pick": "Como Draw No Bet",
+          "market": "Draw No Bet",
+          "odds": 1.34
         }
       ]
     },
     {
-      "ticket_title": "High-Yield Slip",
-      "target_odds": "25.18",
+      "name": "High-Yield Slip",
+      "target_odds": 24.85,
       "risk": "High",
       "date_range": "Next 3 Days",
       "picks": [
         {
-          "match": "Ipswich Town vs Liverpool",
-          "pick": "Liverpool & Over 2.5 Goals",
-          "odds": 1.95,
-          "category": "football"
+          "match": "Newcastle United vs Bournemouth",
+          "pick": "Newcastle United to Win",
+          "market": "Full Time Result",
+          "odds": 2.14
         },
         {
-          "match": "Real Betis vs Real Madrid",
-          "pick": "Real Madrid & Over 2.5 Goals",
-          "odds": 2.05,
-          "category": "football"
+          "match": "Brentford vs Sunderland",
+          "pick": "Brentford & Both Teams to Score",
+          "market": "Result & Both Teams to Score",
+          "odds": 3.35
         },
         {
-          "match": "Bayer Leverkusen vs Union Berlin",
-          "pick": "Bayer Leverkusen -1.5 Asian Handicap",
-          "odds": 2.2,
-          "category": "football"
+          "match": "TSG Hoffenheim vs Borussia Dortmund",
+          "pick": "Borussia Dortmund to Win & Over 2.5 Goals",
+          "market": "Result & Total Goals",
+          "odds": 2.7
         },
         {
           "match": "Inter Milan vs Napoli",
-          "pick": "Inter Milan Moneyline",
-          "odds": 2.86,
-          "category": "football"
+          "pick": "Inter Milan to Win & Under 3.5 Goals",
+          "market": "Result & Total Goals",
+          "odds": 2.28
         }
       ]
     },
     {
-      "ticket_title": "Speculative Loto Ticket",
-      "target_odds": "54.82",
+      "name": "Speculative Loto Ticket",
+      "target_odds": 54.45,
       "risk": "Extreme",
       "date_range": "Next 3 Days",
       "picks": [
         {
-          "match": "Athletic Bilbao vs Atl\u00e9tico Madrid",
-          "pick": "Draw (X)",
-          "odds": 3.45,
-          "category": "football"
+          "match": "Brighton and Hove Albion vs Leeds United",
+          "pick": "Draw & Under 2.5 Goals",
+          "market": "Result & Total Goals",
+          "odds": 4.1
         },
         {
-          "match": "TSG Hoffenheim vs Borussia Dortmund",
-          "pick": "Borussia Dortmund & BTTS",
-          "odds": 3.6,
-          "category": "football"
+          "match": "Athletic Bilbao vs Atl\u00e9tico Madrid",
+          "pick": "Draw",
+          "market": "Full Time Result",
+          "odds": 3.45
         },
         {
           "match": "AS Roma vs Atalanta BC",
-          "pick": "AS Roma Moneyline & Under 3.5 Goals",
-          "odds": 2.35,
-          "category": "football"
+          "pick": "AS Roma to Win & Both Teams to Score",
+          "market": "Result & Both Teams to Score",
+          "odds": 3.3
         },
         {
-          "match": "Newcastle United vs Bournemouth",
-          "pick": "Over 3.5 Total Goals",
-          "odds": 1.88,
-          "category": "football"
+          "match": "Rayo Vallecano vs Real Racing Club de Santander",
+          "pick": "Real Racing Club de Santander to Win",
+          "market": "Full Time Result",
+          "odds": 3.25
         }
       ]
     }
@@ -138,30 +132,80 @@
   "matches": [
     {
       "category": "football",
-      "country": "ESP",
-      "match": "Real Sociedad vs Celta Vigo",
-      "pick": "Real Sociedad Moneyline",
-      "odds": 1.88,
-      "confidence": 78,
-      "market": "3-Way Moneyline",
+      "country": "ENG",
+      "match": "Ipswich Town vs Liverpool",
+      "pick": "Liverpool to Win",
+      "odds": 1.48,
+      "confidence": 85,
+      "market": "Full Time Result",
       "date_badge": "Today"
     },
     {
       "category": "football",
-      "country": "ROU",
-      "match": "FCSB vs CFR Cluj",
-      "pick": "Both Teams To Score",
-      "odds": 1.86,
-      "confidence": 75,
-      "market": "BTTS - Yes",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ROU",
-      "match": "Rapid Bucuresti vs Farul Constanta",
+      "country": "ENG",
+      "match": "Ipswich Town vs Liverpool",
       "pick": "Over 2.5 Goals",
-      "odds": 1.85,
+      "odds": 1.4,
+      "confidence": 84,
+      "market": "Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ESP",
+      "match": "Real Betis vs Real Madrid",
+      "pick": "Real Madrid to Win",
+      "odds": 1.4,
+      "confidence": 83,
+      "market": "Full Time Result",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ESP",
+      "match": "Real Betis vs Real Madrid",
+      "pick": "Both Teams to Score - Yes",
+      "odds": 1.62,
+      "confidence": 76,
+      "market": "Both Teams to Score",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ITA",
+      "match": "Genoa vs Como",
+      "pick": "Como to Win",
+      "odds": 1.82,
+      "confidence": 74,
+      "market": "Full Time Result",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ITA",
+      "match": "Genoa vs Como",
+      "pick": "Under 2.5 Goals",
+      "odds": 1.65,
+      "confidence": 81,
+      "market": "Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "GER",
+      "match": "VfB Stuttgart vs 1. FC K\u00f6ln",
+      "pick": "VfB Stuttgart to Win",
+      "odds": 1.49,
+      "confidence": 86,
+      "market": "Full Time Result",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "GER",
+      "match": "VfB Stuttgart vs 1. FC K\u00f6ln",
+      "pick": "Over 3.5 Goals",
+      "odds": 1.95,
       "confidence": 72,
       "market": "Total Goals",
       "date_badge": "Today"
@@ -169,135 +213,95 @@
     {
       "category": "football",
       "country": "FRA",
-      "match": "PSG vs Lens",
-      "pick": "PSG Moneyline & Over 1.5 Goals",
-      "odds": 1.65,
-      "confidence": 82,
-      "market": "Match Result & Total Goals",
-      "date_badge": "Today"
-    },
-    {
-      "category": "tennis",
-      "country": "GLOBAL",
-      "match": "Carlos Alcaraz vs Cameron Norrie",
-      "pick": "Carlos Alcaraz -1.5 Sets",
-      "odds": 1.45,
-      "confidence": 88,
-      "market": "Set Handicap",
-      "date_badge": "Today"
-    },
-    {
-      "category": "tennis",
-      "country": "GLOBAL",
-      "match": "Jannik Sinner vs Frances Tiafoe",
-      "pick": "Jannik Sinner Moneyline",
-      "odds": 1.35,
-      "confidence": 90,
-      "market": "Match Winner",
-      "date_badge": "Today"
-    },
-    {
-      "category": "tennis",
-      "country": "GLOBAL",
-      "match": "Novak Djokovic vs Ben Shelton",
-      "pick": "Over 3.5 Total Sets",
-      "odds": 1.68,
-      "confidence": 76,
-      "market": "Total Sets",
-      "date_badge": "Today"
-    },
-    {
-      "category": "tennis",
-      "country": "GLOBAL",
-      "match": "Aryna Sabalenka vs Qinwen Zheng",
-      "pick": "Aryna Sabalenka Moneyline",
-      "odds": 1.52,
+      "match": "Lille vs Rennes",
+      "pick": "Lille to Win or Draw",
+      "odds": 1.38,
       "confidence": 80,
+      "market": "Double Chance",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ROU",
+      "match": "FCSB vs UTA Arad",
+      "pick": "FCSB to Win",
+      "odds": 1.55,
+      "confidence": 79,
+      "market": "Full Time Result",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Carlos Alcaraz vs Daniil Medvedev",
+      "pick": "Carlos Alcaraz to Win",
+      "odds": 1.5,
+      "confidence": 82,
       "market": "Match Winner",
       "date_badge": "Today"
     },
     {
       "category": "tennis",
       "country": "GLOBAL",
-      "match": "Iga Swiatek vs Mirra Andreeva",
-      "pick": "Iga Swiatek -1.5 Sets",
-      "odds": 1.42,
-      "confidence": 85,
-      "market": "Set Handicap",
+      "match": "Jannik Sinner vs Alexander Zverev",
+      "pick": "Over 38.5 Total Games",
+      "odds": 1.85,
+      "confidence": 75,
+      "market": "Total Games",
       "date_badge": "Today"
     },
     {
       "category": "tennis",
       "country": "GLOBAL",
-      "match": "Alexander Zverev vs Taylor Fritz",
-      "pick": "Over 38.5 Total Games",
-      "odds": 1.82,
-      "confidence": 74,
-      "market": "Total Games",
+      "match": "Aryna Sabalenka vs Coco Gauff",
+      "pick": "Aryna Sabalenka to Win",
+      "odds": 1.68,
+      "confidence": 77,
+      "market": "Match Winner",
       "date_badge": "Today"
     },
     {
       "category": "nba",
       "country": "USA",
-      "match": "Las Vegas Aces vs New York Liberty",
-      "pick": "Las Vegas Aces -3.5",
-      "odds": 1.85,
-      "confidence": 72,
+      "match": "Boston Celtics vs Miami Heat",
+      "pick": "Boston Celtics -5.5",
+      "odds": 1.91,
+      "confidence": 78,
       "market": "Point Spread",
       "date_badge": "Today"
     },
     {
       "category": "nba",
       "country": "USA",
-      "match": "Minnesota Lynx vs Connecticut Sun",
-      "pick": "Under 158.5 Points",
-      "odds": 1.9,
-      "confidence": 70,
-      "market": "Game Total Points",
+      "match": "Denver Nuggets vs Minnesota Timberwolves",
+      "pick": "Under 218.5 Total Points",
+      "odds": 1.88,
+      "confidence": 74,
+      "market": "Total Points",
       "date_badge": "Today"
     },
     {
       "category": "cs2",
       "country": "GLOBAL",
-      "match": "Team Vitality vs Natus Vincere",
-      "pick": "Team Vitality Map 1 Winner",
-      "odds": 1.75,
-      "confidence": 77,
-      "market": "Map 1 Winner",
+      "match": "Team Vitality vs MOUZ",
+      "pick": "Team Vitality to Win",
+      "odds": 1.62,
+      "confidence": 80,
+      "market": "Match Winner",
       "date_badge": "Today"
     },
     {
       "category": "cs2",
       "country": "GLOBAL",
-      "match": "FaZe Clan vs G2 Esports",
+      "match": "FaZe Clan vs Natus Vincere",
       "pick": "Over 2.5 Total Maps",
       "odds": 1.95,
-      "confidence": 68,
+      "confidence": 73,
       "market": "Total Maps",
-      "date_badge": "Today"
-    },
-    {
-      "category": "cs2",
-      "country": "GLOBAL",
-      "match": "Team Liquid vs Astralis",
-      "pick": "Team Liquid Match Winner",
-      "odds": 1.68,
-      "confidence": 78,
-      "market": "Match Winner",
-      "date_badge": "Today"
-    },
-    {
-      "category": "cs2",
-      "country": "GLOBAL",
-      "match": "MOUZ vs HEROIC",
-      "pick": "MOUZ Match Winner",
-      "odds": 1.55,
-      "confidence": 81,
-      "market": "Match Winner",
       "date_badge": "Today"
     }
   ],
   "api_quota_exceeded": false,
   "error_msg": "",
-  "last_updated": "2026-09-03"
+  "last_updated": "2026-09-04"
 }
