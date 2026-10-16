@@ -2,129 +2,129 @@
   "tickets": [
     {
       "name": "Safe Anchor Slip",
-      "target_odds": 4.63,
       "risk": "Low",
+      "target_odds": 4.98,
       "date_range": "Today Only",
       "picks": [
         {
-          "match": "Jannik Sinner vs Daniil Medvedev",
-          "pick": "Jannik Sinner Win",
+          "match": "Eintracht Frankfurt vs 1. FC K\u00f6ln",
+          "pick": "Over 2.5 Goals",
           "odds": 1.42,
-          "market": "Match Winner"
+          "date": "2026-10-16"
         },
         {
-          "match": "FCSB vs CFR Cluj",
-          "pick": "FCSB or Draw",
-          "odds": 1.35,
-          "market": "Double Chance"
+          "match": "Frosinone vs Sassuolo",
+          "pick": "Both Teams to Score - Yes",
+          "odds": 1.55,
+          "date": "2026-10-16"
         },
         {
-          "match": "Boston Celtics vs Philadelphia 76ers",
-          "pick": "Boston Celtics -3.5",
-          "odds": 1.65,
-          "market": "Point Spread"
+          "match": "Deportivo La Coru\u00f1a vs Levante",
+          "pick": "Deportivo La Coru\u00f1a Win or Draw (1X)",
+          "odds": 1.33,
+          "date": "2026-10-16"
         },
         {
-          "match": "Team Vitality vs G2 Esports",
-          "pick": "Team Vitality +1.5 Maps",
-          "odds": 1.32,
-          "market": "Map Handicap"
+          "match": "Paris Saint-Germain vs Strasbourg",
+          "pick": "Paris Saint-Germain Win",
+          "odds": 1.7,
+          "date": "2026-10-16"
         }
       ]
     },
     {
       "name": "Value Combo Slip",
-      "target_odds": 9.02,
       "risk": "Medium",
+      "target_odds": 11.9,
       "date_range": "Today Only",
       "picks": [
         {
-          "match": "Rapid Bucuresti vs Universitatea Craiova",
-          "pick": "Both Teams To Score",
-          "odds": 1.78,
-          "market": "Both Teams To Score"
+          "match": "Eintracht Frankfurt vs 1. FC K\u00f6ln",
+          "pick": "Eintracht Frankfurt Win",
+          "odds": 1.89,
+          "date": "2026-10-16"
         },
         {
-          "match": "Carlos Alcaraz vs Alexander Zverev",
-          "pick": "Carlos Alcaraz Win",
-          "odds": 1.55,
-          "market": "Match Winner"
+          "match": "Frosinone vs Sassuolo",
+          "pick": "Over 2.5 Goals",
+          "odds": 1.65,
+          "date": "2026-10-16"
         },
         {
-          "match": "Los Angeles Lakers vs Golden State Warriors",
-          "pick": "Over 224.5 Total Points",
-          "odds": 1.9,
-          "market": "Total Points"
+          "match": "Deportivo La Coru\u00f1a vs Levante",
+          "pick": "Deportivo La Coru\u00f1a Win",
+          "odds": 2.12,
+          "date": "2026-10-16"
         },
         {
-          "match": "FaZe Clan vs Natus Vincere",
-          "pick": "Natus Vincere Win",
-          "odds": 1.72,
-          "market": "Match Winner"
+          "match": "FCSB vs Universitatea Craiova",
+          "pick": "Both Teams to Score - Yes",
+          "odds": 1.8,
+          "date": "2026-10-16"
         }
       ]
     },
     {
       "name": "High-Yield Slip",
-      "target_odds": 21.68,
       "risk": "High",
+      "target_odds": 23.4,
       "date_range": "Next 3 Days",
       "picks": [
         {
-          "match": "Eintracht Frankfurt vs 1. FC K\u00f6ln",
-          "pick": "Eintracht Frankfurt Win",
-          "odds": 1.99,
-          "market": "Full Time Result"
+          "match": "Everton vs Chelsea",
+          "pick": "Chelsea Win",
+          "odds": 2.2,
+          "date": "2026-10-17"
         },
         {
-          "match": "Espanyol vs Atl\u00e9tico Madrid",
-          "pick": "Atl\u00e9tico Madrid Win",
-          "odds": 1.76,
-          "market": "Full Time Result"
+          "match": "Brentford vs Liverpool",
+          "pick": "Liverpool Win & Both Teams to Score",
+          "odds": 3.1,
+          "date": "2026-10-17"
         },
         {
-          "match": "Venezia vs Napoli",
-          "pick": "Napoli Win",
-          "odds": 1.71,
-          "market": "Full Time Result"
+          "match": "Real Betis vs Barcelona",
+          "pick": "Barcelona Win",
+          "odds": 1.43,
+          "date": "2026-10-17"
         },
         {
-          "match": "Frosinone vs Sassuolo",
-          "pick": "Draw",
-          "odds": 3.62,
-          "market": "Full Time Result"
+          "match": "Union Berlin vs Borussia Dortmund",
+          "pick": "Borussia Dortmund Win & Over 2.5 Goals",
+          "odds": 2.4,
+          "date": "2026-10-17"
         }
       ]
     },
     {
       "name": "Speculative Loto Ticket",
-      "target_odds": 142.87,
       "risk": "Extreme",
+      "target_odds": 91.24,
       "date_range": "Next 3 Days",
       "picks": [
         {
-          "match": "Deportivo La Coru\u00f1a vs Levante",
-          "pick": "Draw",
-          "odds": 3.52,
-          "market": "Full Time Result"
+          "match": "Frosinone vs Sassuolo",
+          "pick": "Match Draw",
+          "odds": 3.84,
+          "date": "2026-10-16"
         },
         {
-          "match": "Brentford vs Liverpool",
-          "pick": "Brentford or Draw",
-          "odds": 2.45,
-          "market": "Double Chance"
+          "match": "Bologna vs Inter Milan",
+          "pick": "Inter Milan Win & Both Teams to Score",
+          "odds": 3.4,
+          "date": "2026-10-17"
         },
         {
-          "match": "Everton vs Chelsea",
-          "pick": "Draw",
-          "odds": 3.7,
-          "market": "Full Time Result"
+          "match": "AS Roma vs Genoa",
+          "pick": "AS Roma Win & Under 2.5 Goals",
+          "odds": 3.25,
+          "date": "2026-10-17"
         },
         {
-          "match": "Union Berlin vs Borussia Dortmund",
-          "pick": "Draw",
-          "odds": 4.48,
-          "market": "Full Time Result"
+          "match": "Villarreal vs Elche CF",
+          "pick": "Villarreal -1.5 Asian Handicap",
+          "odds": 2.15,
+          "date": "2026-10-17"
         }
       ]
     }
@@ -132,176 +132,166 @@
   "matches": [
     {
       "category": "football",
-      "country": "ROU",
-      "match": "FCSB vs CFR Cluj",
-      "pick": "FCSB Win",
-      "odds": 2.1,
-      "confidence": 75,
-      "market": "Full Time Result",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ROU",
-      "match": "Rapid Bucuresti vs Universitatea Craiova",
-      "pick": "Both Teams To Score",
-      "odds": 1.78,
-      "confidence": 80,
-      "market": "Both Teams To Score",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ROU",
-      "match": "Farul Constanta vs Dinamo Bucuresti",
-      "pick": "Over 2.5 Goals",
-      "odds": 1.92,
-      "confidence": 72,
-      "market": "Over/Under 2.5 Goals",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "FRA",
-      "match": "Saint-Etienne vs Auxerre",
-      "pick": "Saint-Etienne Draw No Bet",
-      "odds": 1.68,
-      "confidence": 78,
-      "market": "Draw No Bet",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ESP",
-      "match": "Getafe vs Real Valladolid",
-      "pick": "Under 2.5 Goals",
-      "odds": 1.55,
-      "confidence": 85,
-      "market": "Over/Under 2.5 Goals",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ITA",
-      "match": "Empoli vs Lecce",
-      "pick": "Empoli Win or Draw",
-      "odds": 1.42,
-      "confidence": 84,
-      "market": "Double Chance",
+      "country": "GER",
+      "match": "Eintracht Frankfurt vs 1. FC K\u00f6ln",
+      "pick": "Eintracht Frankfurt Win",
+      "odds": 1.89,
+      "confidence": 81,
+      "market": "Moneyline",
       "date_badge": "Today"
     },
     {
       "category": "football",
       "country": "GER",
-      "match": "Hamburger SV vs Magdeburg",
+      "match": "Eintracht Frankfurt vs 1. FC K\u00f6ln",
+      "pick": "Over 3.5 Goals",
+      "odds": 1.89,
+      "confidence": 76,
+      "market": "Over/Under Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ITA",
+      "match": "Frosinone vs Sassuolo",
+      "pick": "Both Teams to Score - Yes",
+      "odds": 1.55,
+      "confidence": 84,
+      "market": "Both Teams to Score",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ITA",
+      "match": "Frosinone vs Sassuolo",
       "pick": "Over 2.5 Goals",
       "odds": 1.65,
-      "confidence": 81,
-      "market": "Over/Under 2.5 Goals",
+      "confidence": 80,
+      "market": "Over/Under Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ESP",
+      "match": "Deportivo La Coru\u00f1a vs Levante",
+      "pick": "Deportivo La Coru\u00f1a Win",
+      "odds": 2.12,
+      "confidence": 75,
+      "market": "Moneyline",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ESP",
+      "match": "Deportivo La Coru\u00f1a vs Levante",
+      "pick": "Under 2.5 Goals",
+      "odds": 1.95,
+      "confidence": 77,
+      "market": "Over/Under Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "FRA",
+      "match": "Paris Saint-Germain vs Strasbourg",
+      "pick": "Paris Saint-Germain -1.5 Asian Handicap",
+      "odds": 1.85,
+      "confidence": 83,
+      "market": "Asian Handicap",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ROU",
+      "match": "FCSB vs Universitatea Craiova",
+      "pick": "FCSB Win",
+      "odds": 1.95,
+      "confidence": 78,
+      "market": "Moneyline",
       "date_badge": "Today"
     },
     {
       "category": "football",
       "country": "ENG",
-      "match": "Derby County vs Plymouth Argyle",
-      "pick": "Derby County Win",
-      "odds": 1.85,
-      "confidence": 76,
-      "market": "Full Time Result",
-      "date_badge": "Today"
-    },
-    {
-      "category": "tennis",
-      "country": "GLOBAL",
-      "match": "Jannik Sinner vs Daniil Medvedev",
-      "pick": "Jannik Sinner Win",
-      "odds": 1.42,
-      "confidence": 88,
-      "market": "Match Winner",
-      "date_badge": "Today"
-    },
-    {
-      "category": "tennis",
-      "country": "GLOBAL",
-      "match": "Carlos Alcaraz vs Alexander Zverev",
-      "pick": "Carlos Alcaraz -2.5 Games",
+      "match": "Leicester City vs Birmingham City",
+      "pick": "Over 2.5 Goals",
       "odds": 1.75,
-      "confidence": 79,
-      "market": "Game Handicap",
-      "date_badge": "Today"
-    },
-    {
-      "category": "tennis",
-      "country": "GLOBAL",
-      "match": "Aryna Sabalenka vs Coco Gauff",
-      "pick": "Over 21.5 Games",
-      "odds": 1.88,
-      "confidence": 74,
-      "market": "Total Games",
-      "date_badge": "Today"
-    },
-    {
-      "category": "tennis",
-      "country": "GLOBAL",
-      "match": "Iga Swiatek vs Elena Rybakina",
-      "pick": "Iga Swiatek Win",
-      "odds": 1.5,
       "confidence": 82,
+      "market": "Over/Under Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Holger Rune vs Cameron Norrie",
+      "pick": "Holger Rune Win",
+      "odds": 1.52,
+      "confidence": 86,
       "market": "Match Winner",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Stefanos Tsitsipas vs Lorenzo Musetti",
+      "pick": "Stefanos Tsitsipas Win",
+      "odds": 1.57,
+      "confidence": 83,
+      "market": "Match Winner",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Elena Rybakina vs Qinwen Zheng",
+      "pick": "Elena Rybakina Win",
+      "odds": 1.68,
+      "confidence": 80,
+      "market": "Match Winner",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Aryna Sabalenka vs Barbora Krejcikova",
+      "pick": "Aryna Sabalenka -1.5 Sets",
+      "odds": 1.72,
+      "confidence": 81,
+      "market": "Set Handicap",
       "date_badge": "Today"
     },
     {
       "category": "nba",
       "country": "USA",
-      "match": "Boston Celtics vs Philadelphia 76ers",
+      "match": "Boston Celtics vs New York Knicks",
       "pick": "Boston Celtics -4.5",
-      "odds": 1.88,
-      "confidence": 80,
+      "odds": 1.9,
+      "confidence": 79,
       "market": "Point Spread",
       "date_badge": "Today"
     },
     {
       "category": "nba",
       "country": "USA",
-      "match": "Los Angeles Lakers vs Golden State Warriors",
-      "pick": "Over 224.5 Total Points",
-      "odds": 1.9,
-      "confidence": 77,
-      "market": "Total Points",
-      "date_badge": "Today"
-    },
-    {
-      "category": "nba",
-      "country": "USA",
-      "match": "Milwaukee Bucks vs Minnesota Timberwolves",
-      "pick": "Giannis Antetokounmpo Over 28.5 Points",
+      "match": "Denver Nuggets vs Phoenix Suns",
+      "pick": "Nikola Jokic Over 24.5 Points",
       "odds": 1.85,
-      "confidence": 78,
-      "market": "Player Points",
+      "confidence": 85,
+      "market": "Player Props",
       "date_badge": "Today"
     },
     {
       "category": "cs2",
       "country": "GLOBAL",
-      "match": "FaZe Clan vs Natus Vincere",
-      "pick": "Natus Vincere Win",
-      "odds": 1.72,
-      "confidence": 78,
+      "match": "Team Vitality vs FaZe Clan",
+      "pick": "Team Vitality Win",
+      "odds": 1.65,
+      "confidence": 82,
       "market": "Match Winner",
-      "date_badge": "Today"
-    },
-    {
-      "category": "cs2",
-      "country": "GLOBAL",
-      "match": "Team Vitality vs G2 Esports",
-      "pick": "Over 2.5 Maps",
-      "odds": 1.95,
-      "confidence": 73,
-      "market": "Total Maps",
       "date_badge": "Today"
     }
   ],
   "api_quota_exceeded": false,
   "error_msg": "",
-  "last_updated": "2026-10-15"
+  "last_updated": "2026-10-16"
 }
