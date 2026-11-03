@@ -1,134 +1,130 @@
 {
   "tickets": [
     {
-      "title": "Safe Anchor Slip",
-      "target_odds": 5.0,
-      "risk": "Low",
+      "ticket_name": "Safe Anchor Slip",
+      "target_odds": 4.93,
+      "risk_level": "Low",
       "date_range": "Today Only",
-      "combined_odds": 5.22,
-      "picks": [
+      "legs": [
         {
-          "match": "Atalanta BC vs Parma",
-          "pick": "Atalanta BC to Win",
-          "odds": 1.52,
-          "date": "2026-11-02"
+          "match": "AC Milan vs Club Brugge",
+          "pick": "AC Milan Win",
+          "odds": 1.58,
+          "commence_time": "2026-11-03T17:45:00Z"
         },
         {
-          "match": "Sassuolo vs Fiorentina",
-          "pick": "Over 2.5 Goals",
-          "odds": 1.55,
-          "date": "2026-11-02"
+          "match": "PSG vs PSV Eindhoven",
+          "pick": "PSG Win",
+          "odds": 1.45,
+          "commence_time": "2026-11-03T20:00:00Z"
         },
         {
-          "match": "Newcastle United vs Everton",
-          "pick": "Newcastle United or Draw",
-          "odds": 1.32,
-          "date": "2026-11-02"
+          "match": "Jannik Sinner vs Ben Shelton",
+          "pick": "Jannik Sinner Win",
+          "odds": 1.33,
+          "commence_time": "2026-11-03T14:00:00Z"
         },
         {
-          "match": "Deportivo La Coru\u00f1a vs CA Osasuna",
-          "pick": "Under 2.5 Goals",
-          "odds": 1.68,
-          "date": "2026-11-02"
+          "match": "Girona vs Slovan Bratislava",
+          "pick": "Girona Win",
+          "odds": 1.62,
+          "commence_time": "2026-11-03T20:00:00Z"
         }
       ]
     },
     {
-      "title": "Value Combo Slip",
-      "target_odds": 10.0,
-      "risk": "Medium",
+      "ticket_name": "Value Combo Slip",
+      "target_odds": 9.56,
+      "risk_level": "Medium",
       "date_range": "Today Only",
-      "combined_odds": 11.61,
-      "picks": [
+      "legs": [
         {
-          "match": "Newcastle United vs Everton",
+          "match": "Borussia Dortmund vs Sturm Graz",
+          "pick": "Borussia Dortmund -1.5 Asian Handicap",
+          "odds": 1.68,
+          "commence_time": "2026-11-03T20:00:00Z"
+        },
+        {
+          "match": "Boston Celtics vs Milwaukee Bucks",
+          "pick": "Boston Celtics -4.5",
+          "odds": 1.9,
+          "commence_time": "2026-11-03T23:30:00Z"
+        },
+        {
+          "match": "Liverpool vs Real Madrid",
           "pick": "Over 2.5 Goals",
-          "odds": 1.75,
-          "date": "2026-11-02"
+          "odds": 1.62,
+          "commence_time": "2026-11-03T20:00:00Z"
         },
         {
-          "match": "Atalanta BC vs Parma",
-          "pick": "Atalanta BC to Win",
-          "odds": 1.52,
-          "date": "2026-11-02"
-        },
-        {
-          "match": "Sassuolo vs Fiorentina",
-          "pick": "Fiorentina to Win",
-          "odds": 2.36,
-          "date": "2026-11-02"
-        },
-        {
-          "match": "FCSB vs CFR Cluj",
+          "match": "FCSB vs Universitatea Craiova",
           "pick": "Both Teams to Score",
           "odds": 1.85,
-          "date": "2026-11-02"
+          "commence_time": "2026-11-03T18:30:00Z"
         }
       ]
     },
     {
-      "title": "High-Yield Slip",
-      "target_odds": 25.0,
-      "risk": "High",
+      "ticket_name": "High-Yield Slip",
+      "target_odds": 24.31,
+      "risk_level": "High",
       "date_range": "Next 3 Days",
-      "combined_odds": 25.26,
-      "picks": [
+      "legs": [
         {
-          "match": "Newcastle United vs Everton",
-          "pick": "Newcastle United to Win",
-          "odds": 2.18,
-          "date": "2026-11-02"
+          "match": "Everton vs Coventry City",
+          "pick": "Everton Win",
+          "odds": 1.72,
+          "commence_time": "2026-11-06T20:00:00Z"
         },
         {
-          "match": "Atalanta BC vs Parma",
-          "pick": "Atalanta BC -1.5 Asian Handicap",
-          "odds": 2.2,
-          "date": "2026-11-02"
+          "match": "Leeds United vs Tottenham Hotspur",
+          "pick": "Draw",
+          "odds": 3.45,
+          "commence_time": "2026-11-07T12:30:00Z"
         },
         {
           "match": "Sevilla vs Alav\u00e9s",
-          "pick": "Sevilla to Win",
+          "pick": "Sevilla Win",
           "odds": 1.95,
-          "date": "2026-11-06"
+          "commence_time": "2026-11-06T20:00:00Z"
         },
         {
-          "match": "Everton vs Coventry City",
-          "pick": "Everton to Win",
-          "odds": 1.7,
-          "date": "2026-11-06"
+          "match": "FSV Mainz 05 vs Bayern Munich",
+          "pick": "Bayern Munich -1.5 Asian Handicap",
+          "odds": 2.1,
+          "commence_time": "2026-11-07T14:30:00Z"
         }
       ]
     },
     {
-      "title": "Speculative Loto Ticket",
-      "target_odds": 50.0,
-      "risk": "Extreme",
+      "ticket_name": "Speculative Loto Ticket",
+      "target_odds": 55.42,
+      "risk_level": "Extreme",
       "date_range": "Next 3 Days",
-      "combined_odds": 84.03,
-      "picks": [
-        {
-          "match": "Newcastle United vs Everton",
-          "pick": "Newcastle United to Win",
-          "odds": 2.18,
-          "date": "2026-11-02"
-        },
-        {
-          "match": "Sassuolo vs Fiorentina",
-          "pick": "Draw",
-          "odds": 3.65,
-          "date": "2026-11-02"
-        },
-        {
-          "match": "Deportivo La Coru\u00f1a vs CA Osasuna",
-          "pick": "Draw",
-          "odds": 3.3,
-          "date": "2026-11-02"
-        },
+      "legs": [
         {
           "match": "Venezia vs Udinese",
-          "pick": "Udinese to Win",
-          "odds": 3.2,
-          "date": "2026-11-06"
+          "pick": "Draw",
+          "odds": 3.68,
+          "commence_time": "2026-11-06T19:45:00Z"
+        },
+        {
+          "match": "Fulham vs Newcastle United",
+          "pick": "Newcastle United Win",
+          "odds": 3.49,
+          "commence_time": "2026-11-07T15:00:00Z"
+        },
+        {
+          "match": "Espanyol vs Deportivo La Coru\u00f1a",
+          "pick": "Draw",
+          "odds": 3.36,
+          "commence_time": "2026-11-07T15:15:00Z"
+        },
+        {
+          "match": "CA Osasuna vs Athletic Bilbao",
+          "pick": "Athletic Bilbao Win",
+          "odds": 2.15,
+          "commence_time": "2026-11-07T17:30:00Z"
         }
       ]
     }
@@ -137,87 +133,57 @@
     {
       "category": "football",
       "country": "ENG",
-      "match": "Newcastle United vs Everton",
-      "pick": "Newcastle United to Win",
-      "odds": 2.18,
-      "confidence": 75,
-      "market": "Match Result",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ENG",
-      "match": "Newcastle United vs Everton",
+      "match": "Liverpool vs Real Madrid",
       "pick": "Over 2.5 Goals",
-      "odds": 1.75,
-      "confidence": 80,
-      "market": "Over/Under 2.5 Goals",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ITA",
-      "match": "Sassuolo vs Fiorentina",
-      "pick": "Over 2.5 Goals",
-      "odds": 1.55,
+      "odds": 1.62,
       "confidence": 84,
-      "market": "Over/Under 2.5 Goals",
+      "market": "Total Goals",
       "date_badge": "Today"
     },
     {
       "category": "football",
-      "country": "ITA",
-      "match": "Sassuolo vs Fiorentina",
-      "pick": "Fiorentina or Draw",
-      "odds": 1.38,
-      "confidence": 82,
-      "market": "Double Chance",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ITA",
-      "match": "Atalanta BC vs Parma",
-      "pick": "Atalanta BC to Win",
-      "odds": 1.52,
-      "confidence": 86,
-      "market": "Match Result",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ITA",
-      "match": "Atalanta BC vs Parma",
-      "pick": "Over 2.5 Goals",
-      "odds": 1.58,
+      "country": "ESP",
+      "match": "Girona vs Slovan Bratislava",
+      "pick": "Girona Win",
+      "odds": 1.62,
       "confidence": 81,
-      "market": "Over/Under 2.5 Goals",
+      "market": "Match Winner",
       "date_badge": "Today"
     },
     {
       "category": "football",
-      "country": "ESP",
-      "match": "Deportivo La Coru\u00f1a vs CA Osasuna",
-      "pick": "Under 2.5 Goals",
+      "country": "ITA",
+      "match": "AC Milan vs Club Brugge",
+      "pick": "AC Milan Win",
+      "odds": 1.58,
+      "confidence": 85,
+      "market": "Match Winner",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "GER",
+      "match": "Borussia Dortmund vs Sturm Graz",
+      "pick": "Borussia Dortmund -1.5 Asian Handicap",
       "odds": 1.68,
-      "confidence": 83,
-      "market": "Over/Under 2.5 Goals",
+      "confidence": 80,
+      "market": "Asian Handicap",
       "date_badge": "Today"
     },
     {
       "category": "football",
-      "country": "ESP",
-      "match": "Deportivo La Coru\u00f1a vs CA Osasuna",
-      "pick": "Deportivo La Coru\u00f1a Draw No Bet",
-      "odds": 1.55,
-      "confidence": 78,
-      "market": "Draw No Bet",
+      "country": "FRA",
+      "match": "PSG vs PSV Eindhoven",
+      "pick": "PSG Win",
+      "odds": 1.45,
+      "confidence": 87,
+      "market": "Match Winner",
       "date_badge": "Today"
     },
     {
       "category": "football",
       "country": "ROU",
-      "match": "FCSB vs CFR Cluj",
+      "match": "FCSB vs Universitatea Craiova",
       "pick": "Both Teams to Score",
       "odds": 1.85,
       "confidence": 76,
@@ -227,50 +193,30 @@
     {
       "category": "football",
       "country": "ROU",
-      "match": "Universitatea Craiova vs Farul Constan\u021ba",
-      "pick": "Universitatea Craiova to Win",
-      "odds": 1.95,
-      "confidence": 74,
-      "market": "Match Result",
+      "match": "CFR Cluj vs Rapid Bucure\u0219ti",
+      "pick": "Over 2.0 Asian Total",
+      "odds": 1.6,
+      "confidence": 82,
+      "market": "Total Goals",
       "date_badge": "Today"
     },
     {
       "category": "football",
-      "country": "FRA",
-      "match": "Metz vs Auxerre",
-      "pick": "Under 2.5 Goals",
-      "odds": 1.72,
+      "country": "ENG",
+      "match": "Arsenal vs Shakhtar Donetsk",
+      "pick": "Arsenal Win to Nil",
+      "odds": 1.75,
       "confidence": 79,
-      "market": "Over/Under 2.5 Goals",
-      "date_badge": "Today"
-    },
-    {
-      "category": "nba",
-      "country": "USA",
-      "match": "Boston Celtics vs New York Knicks",
-      "pick": "Boston Celtics -4.5",
-      "odds": 1.9,
-      "confidence": 81,
-      "market": "Point Spread",
-      "date_badge": "Today"
-    },
-    {
-      "category": "nba",
-      "country": "USA",
-      "match": "Los Angeles Lakers vs Denver Nuggets",
-      "pick": "Over 224.5 Points",
-      "odds": 1.88,
-      "confidence": 77,
-      "market": "Total Points",
+      "market": "Win to Nil",
       "date_badge": "Today"
     },
     {
       "category": "tennis",
       "country": "GLOBAL",
-      "match": "Jannik Sinner vs Daniil Medvedev",
-      "pick": "Jannik Sinner to Win",
-      "odds": 1.45,
-      "confidence": 85,
+      "match": "Jannik Sinner vs Ben Shelton",
+      "pick": "Jannik Sinner Win",
+      "odds": 1.33,
+      "confidence": 89,
       "market": "Match Winner",
       "date_badge": "Today"
     },
@@ -278,34 +224,84 @@
       "category": "tennis",
       "country": "GLOBAL",
       "match": "Carlos Alcaraz vs Alexander Zverev",
-      "pick": "Carlos Alcaraz 2-0 Set Betting",
-      "odds": 2.1,
-      "confidence": 72,
-      "market": "Set Betting",
+      "pick": "Over 22.5 Games",
+      "odds": 1.85,
+      "confidence": 77,
+      "market": "Total Games",
       "date_badge": "Today"
     },
     {
-      "category": "cs2",
+      "category": "tennis",
       "country": "GLOBAL",
-      "match": "FaZe Clan vs Natus Vincere",
-      "pick": "Natus Vincere to Win",
-      "odds": 1.72,
-      "confidence": 78,
+      "match": "Iga Swiatek vs Coco Gauff",
+      "pick": "Iga Swiatek Win",
+      "odds": 1.45,
+      "confidence": 83,
       "market": "Match Winner",
       "date_badge": "Today"
     },
     {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Daniil Medvedev vs Holger Rune",
+      "pick": "Daniil Medvedev Win",
+      "odds": 1.58,
+      "confidence": 80,
+      "market": "Match Winner",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Boston Celtics vs Milwaukee Bucks",
+      "pick": "Boston Celtics -4.5",
+      "odds": 1.9,
+      "confidence": 78,
+      "market": "Point Spread",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Los Angeles Lakers vs Golden State Warriors",
+      "pick": "Over 228.5 Points",
+      "odds": 1.88,
+      "confidence": 75,
+      "market": "Game Total Points",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Denver Nuggets vs Oklahoma City Thunder",
+      "pick": "Nikola Jokic Over 24.5 Points",
+      "odds": 1.85,
+      "confidence": 81,
+      "market": "Player Points Prop",
+      "date_badge": "Today"
+    },
+    {
       "category": "cs2",
       "country": "GLOBAL",
-      "match": "Team Vitality vs G2 Esports",
+      "match": "Team Vitality vs Natus Vincere",
+      "pick": "Team Vitality Map 1 Win",
+      "odds": 1.72,
+      "confidence": 76,
+      "market": "Map Winner",
+      "date_badge": "Today"
+    },
+    {
+      "category": "cs2",
+      "country": "GLOBAL",
+      "match": "FaZe Clan vs G2 Esports",
       "pick": "Over 2.5 Maps",
-      "odds": 1.9,
-      "confidence": 75,
-      "market": "Map Total",
+      "odds": 1.95,
+      "confidence": 74,
+      "market": "Total Maps",
       "date_badge": "Today"
     }
   ],
   "api_quota_exceeded": false,
   "error_msg": "",
-  "last_updated": "2026-11-02"
+  "last_updated": "2026-11-03"
 }
