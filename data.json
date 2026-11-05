@@ -1,7 +1,323 @@
 {
-  "api_quota_exceeded": true,
-  "error_msg": "Model gemini-flash-latest failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 27.240958233s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  description: \"Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\"\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 27\n}\n]",
-  "last_updated": "2026-11-04",
-  "tickets": [],
-  "matches": []
+  "tickets": [
+    {
+      "name": "Safe Anchor Slip",
+      "target_odds": 5.21,
+      "risk": "Low",
+      "date_range": "Today Only",
+      "picks": [
+        {
+          "category": "football",
+          "match": "Chelsea vs FC Noah",
+          "pick": "Chelsea -2.5 Asian Handicap",
+          "odds": 1.42,
+          "market": "Handicap"
+        },
+        {
+          "category": "tennis",
+          "match": "Jannik Sinner vs Holger Rune",
+          "pick": "Jannik Sinner Win",
+          "odds": 1.35,
+          "market": "Match Winner"
+        },
+        {
+          "category": "nba",
+          "match": "Boston Celtics vs Golden State Warriors",
+          "pick": "Boston Celtics Moneyline",
+          "odds": 1.48,
+          "market": "Moneyline"
+        },
+        {
+          "category": "cs2",
+          "match": "Natus Vincere vs FaZe Clan",
+          "pick": "Natus Vincere Win",
+          "odds": 1.83,
+          "market": "Match Winner"
+        }
+      ]
+    },
+    {
+      "name": "Value Combo Slip",
+      "target_odds": 10.15,
+      "risk": "Medium",
+      "date_range": "Today Only",
+      "picks": [
+        {
+          "category": "football",
+          "match": "Lazio vs Nice",
+          "pick": "Lazio Win",
+          "odds": 1.82,
+          "market": "1X2"
+        },
+        {
+          "category": "football",
+          "match": "FCSB vs Midtjylland",
+          "pick": "Both Teams to Score - Yes",
+          "odds": 1.75,
+          "market": "Both Teams To Score"
+        },
+        {
+          "category": "nba",
+          "match": "Denver Nuggets vs Oklahoma City Thunder",
+          "pick": "Oklahoma City Thunder -3.5",
+          "odds": 1.91,
+          "market": "Point Spread"
+        },
+        {
+          "category": "cs2",
+          "match": "Team Vitality vs G2 Esports",
+          "pick": "Over 2.5 Maps",
+          "odds": 1.67,
+          "market": "Total Maps"
+        }
+      ]
+    },
+    {
+      "name": "High-Yield Slip",
+      "target_odds": 25.18,
+      "risk": "High",
+      "date_range": "Next 3 Days",
+      "picks": [
+        {
+          "category": "football",
+          "match": "Leeds United vs Tottenham Hotspur",
+          "pick": "Draw",
+          "odds": 3.45,
+          "market": "1X2"
+        },
+        {
+          "category": "football",
+          "match": "Sevilla vs Alav\u00e9s",
+          "pick": "Sevilla Win",
+          "odds": 1.95,
+          "market": "1X2"
+        },
+        {
+          "category": "football",
+          "match": "Torino vs Lecce",
+          "pick": "Torino Win",
+          "odds": 1.82,
+          "market": "1X2"
+        },
+        {
+          "category": "football",
+          "match": "FSV Mainz 05 vs Bayern Munich",
+          "pick": "Over 3.5 Goals",
+          "odds": 2.06,
+          "market": "Over/Under Goals"
+        }
+      ]
+    },
+    {
+      "name": "Speculative Loto Ticket",
+      "target_odds": 129.8,
+      "risk": "Extreme",
+      "date_range": "Next 3 Days",
+      "picks": [
+        {
+          "category": "football",
+          "match": "Everton vs Coventry City",
+          "pick": "Draw",
+          "odds": 4.1,
+          "market": "1X2"
+        },
+        {
+          "category": "football",
+          "match": "Venezia vs Udinese",
+          "pick": "Udinese Win",
+          "odds": 3.16,
+          "market": "1X2"
+        },
+        {
+          "category": "football",
+          "match": "Hamburger SV vs Borussia Monchengladbach",
+          "pick": "Borussia Monchengladbach Win",
+          "odds": 2.8,
+          "market": "1X2"
+        },
+        {
+          "category": "football",
+          "match": "CA Osasuna vs Athletic Bilbao",
+          "pick": "Draw",
+          "odds": 3.58,
+          "market": "1X2"
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "category": "football",
+      "country": "ROU",
+      "match": "FCSB vs Midtjylland",
+      "pick": "FCSB or Draw (1X)",
+      "odds": 1.55,
+      "confidence": 81,
+      "market": "Double Chance",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ROU",
+      "match": "CFR Cluj vs Sepsi OSK",
+      "pick": "CFR Cluj Win",
+      "odds": 1.75,
+      "confidence": 78,
+      "market": "1X2",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ENG",
+      "match": "Manchester United vs PAOK",
+      "pick": "Manchester United -1.5 Asian Handicap",
+      "odds": 1.8,
+      "confidence": 83,
+      "market": "Handicap",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ENG",
+      "match": "Chelsea vs FC Noah",
+      "pick": "Over 3.5 Goals",
+      "odds": 1.62,
+      "confidence": 88,
+      "market": "Over/Under Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ITA",
+      "match": "Lazio vs Nice",
+      "pick": "Lazio Win",
+      "odds": 1.82,
+      "confidence": 79,
+      "market": "1X2",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ITA",
+      "match": "Union SG vs Roma",
+      "pick": "Roma Draw No Bet",
+      "odds": 1.68,
+      "confidence": 80,
+      "market": "Draw No Bet",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ESP",
+      "match": "Athletic Bilbao vs Ludogorets",
+      "pick": "Athletic Bilbao Win",
+      "odds": 1.45,
+      "confidence": 86,
+      "market": "1X2",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "GER",
+      "match": "Eintracht Frankfurt vs Slavia Prague",
+      "pick": "Both Teams to Score - Yes",
+      "odds": 1.65,
+      "confidence": 82,
+      "market": "Both Teams To Score",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "FRA",
+      "match": "Olympiacos vs Rangers",
+      "pick": "Over 2.5 Goals",
+      "odds": 1.85,
+      "confidence": 76,
+      "market": "Over/Under Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "GLOBAL",
+      "match": "Ajax vs Maccabi Tel Aviv",
+      "pick": "Ajax Win & Over 1.5 Goals",
+      "odds": 1.58,
+      "confidence": 84,
+      "market": "Match Result & Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Jannik Sinner vs Holger Rune",
+      "pick": "Jannik Sinner Win",
+      "odds": 1.35,
+      "confidence": 89,
+      "market": "Match Winner",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Carlos Alcaraz vs Daniil Medvedev",
+      "pick": "Over 22.5 Games",
+      "odds": 1.85,
+      "confidence": 77,
+      "market": "Total Games",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Boston Celtics vs Golden State Warriors",
+      "pick": "Boston Celtics -4.5",
+      "odds": 1.9,
+      "confidence": 81,
+      "market": "Point Spread",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Denver Nuggets vs Oklahoma City Thunder",
+      "pick": "Oklahoma City Thunder Moneyline",
+      "odds": 1.72,
+      "confidence": 79,
+      "market": "Moneyline",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Los Angeles Lakers vs Philadelphia 76ers",
+      "pick": "Over 224.5 Points",
+      "odds": 1.88,
+      "confidence": 78,
+      "market": "Total Points",
+      "date_badge": "Today"
+    },
+    {
+      "category": "cs2",
+      "country": "GLOBAL",
+      "match": "Natus Vincere vs FaZe Clan",
+      "pick": "Natus Vincere Win",
+      "odds": 1.83,
+      "confidence": 75,
+      "market": "Match Winner",
+      "date_badge": "Today"
+    },
+    {
+      "category": "cs2",
+      "country": "GLOBAL",
+      "match": "Team Vitality vs G2 Esports",
+      "pick": "Over 2.5 Maps",
+      "odds": 1.67,
+      "confidence": 80,
+      "market": "Total Maps",
+      "date_badge": "Today"
+    }
+  ],
+  "api_quota_exceeded": false,
+  "error_msg": "",
+  "last_updated": "2026-11-05"
 }
