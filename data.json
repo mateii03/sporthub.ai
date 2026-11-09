@@ -1,138 +1,114 @@
 {
   "tickets": [
     {
-      "title": "Safe Anchor Slip",
-      "target_odds": 5.0,
+      "ticket_name": "Safe Anchor Slip",
+      "target_odds": 5.13,
       "risk": "Low",
       "date_range": "Today Only",
-      "total_odds": 5.16,
-      "selection_count": 4,
       "picks": [
         {
-          "match": "Crystal Palace vs Liverpool",
-          "pick": "Liverpool to Win",
-          "odds": 1.55,
-          "market": "1X2"
+          "match": "FCSB vs U Cluj",
+          "pick": "Over 1.5 Goals",
+          "odds": 1.35
         },
         {
-          "match": "SC Freiburg vs Union Berlin",
-          "pick": "SC Freiburg to Win",
-          "odds": 1.45,
-          "market": "1X2"
+          "match": "Metz vs Guingamp",
+          "pick": "Metz Win or Draw (1X)",
+          "odds": 1.38
         },
         {
-          "match": "Villarreal vs Getafe",
-          "pick": "Villarreal to Win",
-          "odds": 1.48,
-          "market": "1X2"
+          "match": "Denver Nuggets vs Sacramento Kings",
+          "pick": "Denver Nuggets Moneyline",
+          "odds": 1.45
         },
         {
-          "match": "TSG Hoffenheim vs FC Schalke 04",
-          "pick": "TSG Hoffenheim to Win",
-          "odds": 1.55,
-          "market": "1X2"
+          "match": "Alexander Zverev vs Holger Rune",
+          "pick": "Alexander Zverev Win",
+          "odds": 1.42
         }
       ]
     },
     {
-      "title": "Value Combo Slip",
-      "target_odds": 10.0,
+      "ticket_name": "Value Combo Slip",
+      "target_odds": 9.78,
       "risk": "Medium",
       "date_range": "Today Only",
-      "total_odds": 11.16,
-      "selection_count": 4,
       "picks": [
         {
-          "match": "Real Sociedad vs Rayo Vallecano",
-          "pick": "Real Sociedad to Win",
-          "odds": 1.75,
-          "market": "1X2"
+          "match": "Brescia vs Spezia",
+          "pick": "Under 2.5 Goals",
+          "odds": 1.68
         },
         {
-          "match": "1. FC K\u00f6ln vs Bayer Leverkusen",
-          "pick": "Bayer Leverkusen to Win",
-          "odds": 1.75,
-          "market": "1X2"
+          "match": "FC Boto\u0219ani vs Farul Constan\u021ba",
+          "pick": "Both Teams To Score - Yes",
+          "odds": 1.8
         },
         {
-          "match": "Sunderland vs Chelsea",
-          "pick": "Chelsea to Win",
-          "odds": 1.87,
-          "market": "1X2"
+          "match": "Golden State Warriors vs Phoenix Suns",
+          "pick": "Over 224.5 Points",
+          "odds": 1.85
         },
         {
-          "match": "Genoa vs AC Milan",
-          "pick": "AC Milan to Win",
-          "odds": 1.95,
-          "market": "1X2"
+          "match": "Natus Vincere vs FaZe Clan",
+          "pick": "Natus Vincere -1.5 Map Handicap",
+          "odds": 1.75
         }
       ]
     },
     {
-      "title": "High-Yield Slip",
-      "target_odds": 25.0,
+      "ticket_name": "High-Yield Slip",
+      "target_odds": 25.19,
       "risk": "High",
       "date_range": "Next 3 Days",
-      "total_odds": 31.01,
-      "selection_count": 4,
       "picks": [
         {
-          "match": "Sunderland vs Chelsea",
-          "pick": "Chelsea to Win",
-          "odds": 1.87,
-          "market": "1X2"
+          "match": "Manchester City vs Fulham",
+          "pick": "Manchester City & Over 3.5 Goals",
+          "odds": 2.35
         },
         {
-          "match": "Brighton and Hove Albion vs Brentford",
-          "pick": "Over 3.5 Goals",
-          "odds": 2.4,
-          "market": "Total Goals"
+          "match": "Bayern Munich vs 1. FC K\u00f6ln",
+          "pick": "Bayern Munich -2.5 Asian Handicap",
+          "odds": 2.1
         },
         {
-          "match": "Napoli vs Lazio",
-          "pick": "Draw",
-          "odds": 3.6,
-          "market": "1X2"
+          "match": "Sevilla vs Real Betis",
+          "pick": "Real Betis Win",
+          "odds": 2.32
         },
         {
-          "match": "Elche CF vs Real Betis",
-          "pick": "Real Betis to Win",
-          "odds": 1.92,
-          "market": "1X2"
+          "match": "Dallas Mavericks vs Los Angeles Lakers",
+          "pick": "Luka Don\u010di\u0107 Over 32.5 Points",
+          "odds": 2.2
         }
       ]
     },
     {
-      "title": "Speculative Loto Ticket",
-      "target_odds": 50.0,
+      "ticket_name": "Speculative Loto Ticket",
+      "target_odds": 187.09,
       "risk": "Extreme",
       "date_range": "Next 3 Days",
-      "total_odds": 230.01,
-      "selection_count": 4,
       "picks": [
         {
-          "match": "Crystal Palace vs Liverpool",
+          "match": "Bournemouth vs Nottingham Forest",
+          "pick": "Draw & Both Teams To Score",
+          "odds": 4.33
+        },
+        {
+          "match": "Chelsea vs Leeds United",
           "pick": "Draw",
-          "odds": 4.4,
-          "market": "1X2"
+          "odds": 3.8
         },
         {
-          "match": "Ipswich Town vs Bournemouth",
-          "pick": "Draw",
-          "odds": 3.75,
-          "market": "1X2"
+          "match": "Como vs Cagliari",
+          "pick": "Como Win & Under 2.5 Goals",
+          "odds": 3.25
         },
         {
-          "match": "Genoa vs AC Milan",
-          "pick": "Genoa to Win",
-          "odds": 4.1,
-          "market": "1X2"
-        },
-        {
-          "match": "Monza vs Atalanta BC",
-          "pick": "Monza to Win",
-          "odds": 3.4,
-          "market": "1X2"
+          "match": "Team Vitality vs Team Spirit",
+          "pick": "Correct Score 1-2 (Spirit)",
+          "odds": 3.5
         }
       ]
     }
@@ -140,206 +116,176 @@
   "matches": [
     {
       "category": "football",
-      "country": "ENG",
-      "match": "Crystal Palace vs Liverpool",
-      "pick": "Liverpool to Win",
-      "odds": 1.55,
-      "confidence": 85,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ENG",
-      "match": "Ipswich Town vs Bournemouth",
-      "pick": "Bournemouth to Win",
-      "odds": 1.95,
-      "confidence": 72,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ENG",
-      "match": "Brighton and Hove Albion vs Brentford",
-      "pick": "Over 2.5 Goals",
-      "odds": 1.57,
-      "confidence": 81,
-      "market": "Total Goals",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ENG",
-      "match": "Sunderland vs Chelsea",
-      "pick": "Chelsea to Win",
-      "odds": 1.87,
-      "confidence": 75,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ESP",
-      "match": "Elche CF vs Real Betis",
-      "pick": "Real Betis to Win",
-      "odds": 1.92,
-      "confidence": 73,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ESP",
-      "match": "Real Sociedad vs Rayo Vallecano",
-      "pick": "Real Sociedad to Win",
-      "odds": 1.75,
+      "country": "ROU",
+      "match": "FCSB vs U Cluj",
+      "pick": "FCSB Win",
+      "odds": 1.85,
       "confidence": 78,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ESP",
-      "match": "Celta Vigo vs Levante",
-      "pick": "Celta Vigo to Win",
-      "odds": 1.8,
-      "confidence": 76,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ESP",
-      "match": "Villarreal vs Getafe",
-      "pick": "Villarreal to Win",
-      "odds": 1.48,
-      "confidence": 86,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ITA",
-      "match": "Napoli vs Lazio",
-      "pick": "Both Teams to Score - Yes",
-      "odds": 1.68,
-      "confidence": 79,
-      "market": "Both Teams To Score",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ITA",
-      "match": "Genoa vs AC Milan",
-      "pick": "AC Milan to Win",
-      "odds": 1.95,
-      "confidence": 71,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ITA",
-      "match": "Monza vs Atalanta BC",
-      "pick": "Atalanta BC to Win",
-      "odds": 2.0,
-      "confidence": 70,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ITA",
-      "match": "Inter Milan vs Como",
-      "pick": "Inter Milan to Win",
-      "odds": 2.0,
-      "confidence": 72,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "GER",
-      "match": "1. FC K\u00f6ln vs Bayer Leverkusen",
-      "pick": "Bayer Leverkusen to Win",
-      "odds": 1.75,
-      "confidence": 77,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "GER",
-      "match": "SC Freiburg vs Union Berlin",
-      "pick": "SC Freiburg to Win",
-      "odds": 1.45,
-      "confidence": 88,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "GER",
-      "match": "TSG Hoffenheim vs FC Schalke 04",
-      "pick": "TSG Hoffenheim to Win",
-      "odds": 1.58,
-      "confidence": 82,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "FRA",
-      "match": "Rennes vs Strasbourg",
-      "pick": "Rennes to Win",
-      "odds": 1.7,
-      "confidence": 77,
       "market": "1X2",
       "date_badge": "Today"
     },
     {
       "category": "football",
       "country": "ROU",
-      "match": "FCSB vs Universitatea Craiova",
-      "pick": "FCSB or Draw",
-      "odds": 1.42,
-      "confidence": 84,
+      "match": "FC Boto\u0219ani vs Farul Constan\u021ba",
+      "pick": "Both Teams To Score - Yes",
+      "odds": 1.8,
+      "confidence": 75,
+      "market": "Both Teams To Score",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ITA",
+      "match": "Brescia vs Spezia",
+      "pick": "Under 2.5 Goals",
+      "odds": 1.68,
+      "confidence": 83,
+      "market": "Over/Under Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ESP",
+      "match": "Real Oviedo vs Elche",
+      "pick": "Real Oviedo Win or Draw & Under 3.5 Goals",
+      "odds": 1.6,
+      "confidence": 81,
+      "market": "Double Chance & Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "GER",
+      "match": "Dynamo Dresden vs Saarbrucken",
+      "pick": "Dynamo Dresden Over 1.5 Team Goals",
+      "odds": 1.95,
+      "confidence": 72,
+      "market": "Team Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "FRA",
+      "match": "Metz vs Guingamp",
+      "pick": "Metz Win or Draw (1X)",
+      "odds": 1.38,
+      "confidence": 86,
       "market": "Double Chance",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ENG",
+      "match": "Middlesbrough U21 vs Newcastle U21",
+      "pick": "Over 3.5 Goals",
+      "odds": 2.1,
+      "confidence": 70,
+      "market": "Over/Under Total Goals",
       "date_badge": "Today"
     },
     {
       "category": "tennis",
       "country": "GLOBAL",
-      "match": "Daniil Medvedev vs Alexander Zverev",
-      "pick": "Daniil Medvedev to Win",
-      "odds": 1.8,
-      "confidence": 74,
+      "match": "Jannik Sinner vs Stefanos Tsitsipas",
+      "pick": "Jannik Sinner -1.5 Sets",
+      "odds": 1.72,
+      "confidence": 80,
+      "market": "Set Handicap",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Alexander Zverev vs Holger Rune",
+      "pick": "Alexander Zverev Win",
+      "odds": 1.42,
+      "confidence": 85,
       "market": "Match Winner",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Carlos Alcaraz vs Daniil Medvedev",
+      "pick": "Over 22.5 Total Games",
+      "odds": 1.85,
+      "confidence": 76,
+      "market": "Total Games",
       "date_badge": "Today"
     },
     {
       "category": "nba",
       "country": "USA",
-      "match": "Boston Celtics vs New York Knicks",
-      "pick": "Boston Celtics -4.5",
+      "match": "Boston Celtics vs Brooklyn Nets",
+      "pick": "Boston Celtics -8.5",
       "odds": 1.9,
-      "confidence": 76,
+      "confidence": 79,
       "market": "Point Spread",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Denver Nuggets vs Sacramento Kings",
+      "pick": "Denver Nuggets Moneyline",
+      "odds": 1.45,
+      "confidence": 84,
+      "market": "Moneyline",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Golden State Warriors vs Phoenix Suns",
+      "pick": "Over 224.5 Points",
+      "odds": 1.85,
+      "confidence": 77,
+      "market": "Game Total Points",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Milwaukee Bucks vs Chicago Bulls",
+      "pick": "Giannis Antetokounmpo Over 29.5 Points",
+      "odds": 1.87,
+      "confidence": 78,
+      "market": "Player Points",
+      "date_badge": "Today"
+    },
+    {
+      "category": "cs2",
+      "country": "GLOBAL",
+      "match": "G2 Esports vs HEROIC",
+      "pick": "G2 Esports Win",
+      "odds": 1.38,
+      "confidence": 87,
+      "market": "Match Winner",
       "date_badge": "Today"
     },
     {
       "category": "cs2",
       "country": "GLOBAL",
       "match": "Natus Vincere vs FaZe Clan",
-      "pick": "Natus Vincere to Win",
+      "pick": "Natus Vincere -1.5 Map Handicap",
       "odds": 1.75,
-      "confidence": 78,
+      "confidence": 74,
+      "market": "Map Handicap",
+      "date_badge": "Today"
+    },
+    {
+      "category": "cs2",
+      "country": "GLOBAL",
+      "match": "Team Vitality vs Team Spirit",
+      "pick": "Team Spirit Win",
+      "odds": 2.15,
+      "confidence": 68,
       "market": "Match Winner",
       "date_badge": "Today"
     }
   ],
   "api_quota_exceeded": false,
   "error_msg": "",
-  "last_updated": "2026-11-08"
+  "last_updated": "2026-11-09"
 }
