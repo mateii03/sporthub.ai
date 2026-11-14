@@ -2,129 +2,129 @@
   "tickets": [
     {
       "name": "Safe Anchor Slip",
-      "target_odds": 4.95,
+      "target_odds": 5.02,
       "risk": "Low",
       "date_range": "Today Only",
       "picks": [
         {
-          "match": "Nice vs Montpellier",
-          "pick": "Nice or Draw",
-          "odds": 1.25,
-          "market": "Double Chance"
-        },
-        {
-          "match": "Boston Celtics vs Philadelphia 76ers",
-          "pick": "Boston Celtics Win",
-          "odds": 1.45,
-          "market": "Moneyline"
-        },
-        {
-          "match": "Vitality vs FaZe Clan",
-          "pick": "Vitality Win",
-          "odds": 1.68,
+          "match": "Jannik Sinner vs Alexander Zverev",
+          "pick": "Jannik Sinner Win",
+          "odds": 1.48,
           "market": "Match Winner"
         },
         {
-          "match": "Dinamo Bucure\u0219ti vs CFR Cluj",
-          "pick": "CFR Cluj or Draw",
+          "match": "FCSB vs Petrolul Ploie\u0219ti",
+          "pick": "FCSB Win",
           "odds": 1.62,
-          "market": "Double Chance"
+          "market": "Full Time Result"
+        },
+        {
+          "match": "Boston Celtics vs Brooklyn Nets",
+          "pick": "Boston Celtics -5.5",
+          "odds": 1.55,
+          "market": "Point Spread"
+        },
+        {
+          "match": "Team Vitality vs Heroic",
+          "pick": "Team Vitality Win",
+          "odds": 1.35,
+          "market": "Match Winner"
         }
       ]
     },
     {
       "name": "Value Combo Slip",
-      "target_odds": 9.87,
+      "target_odds": 10.11,
       "risk": "Medium",
       "date_range": "Today Only",
       "picks": [
         {
-          "match": "Girona vs Getafe",
-          "pick": "Girona Win",
-          "odds": 1.9,
-          "market": "1X2"
-        },
-        {
-          "match": "Alexander Zverev vs Daniil Medvedev",
-          "pick": "Alexander Zverev Win",
-          "odds": 1.75,
-          "market": "Match Winner"
-        },
-        {
-          "match": "Watford vs Bristol City",
+          "match": "Universitatea Craiova vs Dinamo Bucure\u0219ti",
           "pick": "Both Teams to Score - Yes",
-          "odds": 1.75,
-          "market": "Both Teams To Score"
+          "odds": 1.85,
+          "market": "Both Teams to Score"
         },
         {
-          "match": "Oklahoma City Thunder vs Los Angeles Lakers",
-          "pick": "Over 228.5 Points",
-          "odds": 1.87,
-          "market": "Total Points"
+          "match": "Real Zaragoza vs Malaga",
+          "pick": "Under 2.5 Goals",
+          "odds": 1.53,
+          "market": "Over/Under Total Goals"
+        },
+        {
+          "match": "G2 Esports vs Natus Vincere",
+          "pick": "Over 2.5 Maps",
+          "odds": 1.9,
+          "market": "Total Maps Played"
+        },
+        {
+          "match": "Golden State Warriors vs San Antonio Spurs",
+          "pick": "Golden State Warriors -4.5",
+          "odds": 1.88,
+          "market": "Point Spread"
         }
       ]
     },
     {
       "name": "High-Yield Slip",
-      "target_odds": 24.58,
+      "target_odds": 25.24,
       "risk": "High",
       "date_range": "Next 3 Days",
       "picks": [
         {
-          "match": "Athletic Bilbao vs Espanyol",
-          "pick": "Athletic Bilbao Win",
-          "odds": 1.5,
-          "market": "1X2"
+          "match": "Spain vs Switzerland",
+          "pick": "Spain Win & Over 2.5 Goals",
+          "odds": 2.1,
+          "market": "Match Result and Total Goals"
         },
         {
-          "match": "Bayern Munich vs 1. FC K\u00f6ln",
-          "pick": "Bayern Munich -2.5 Asian Handicap",
-          "odds": 1.95,
-          "market": "Asian Handicap"
+          "match": "Italy vs France",
+          "pick": "Both Teams to Score & Over 2.5 Goals",
+          "odds": 2.3,
+          "market": "Match Parlay"
         },
         {
-          "match": "Rayo Vallecano vs Valencia",
-          "pick": "Rayo Vallecano Win",
-          "odds": 2.01,
-          "market": "1X2"
+          "match": "Oklahoma City Thunder vs Phoenix Suns",
+          "pick": "Oklahoma City Thunder -6.5",
+          "odds": 1.9,
+          "market": "Point Spread"
         },
         {
-          "match": "Sevilla vs Real Betis",
-          "pick": "Draw",
-          "odds": 4.18,
-          "market": "1X2"
+          "match": "Carlos Alcaraz vs Daniil Medvedev",
+          "pick": "Carlos Alcaraz 2-0",
+          "odds": 2.75,
+          "market": "Set Betting"
         }
       ]
     },
     {
       "name": "Speculative Loto Ticket",
-      "target_odds": 78.45,
+      "target_odds": 56.44,
       "risk": "Extreme",
       "date_range": "Next 3 Days",
       "picks": [
         {
-          "match": "Bournemouth vs Nottingham Forest",
-          "pick": "Draw",
-          "odds": 3.65,
-          "market": "1X2"
+          "match": "Romania vs Kosovo",
+          "pick": "Romania Win & Both Teams to Score",
+          "odds": 3.5,
+          "market": "Match Result and BTTS"
         },
         {
-          "match": "Aston Villa vs Sunderland",
-          "pick": "Sunderland Win",
-          "odds": 4.6,
-          "market": "1X2"
+          "match": "England vs Republic of Ireland",
+          "pick": "England -2.5 Asian Handicap",
+          "odds": 3.2,
+          "market": "Asian Handicap"
         },
         {
-          "match": "Chelsea vs Leeds United",
-          "pick": "Leeds United Win",
-          "odds": 4.1,
-          "market": "1X2"
+          "match": "FaZe Clan vs MOUZ",
+          "pick": "FaZe Clan 2-1 Exact Score",
+          "odds": 3.4,
+          "market": "Correct Map Score"
         },
         {
-          "match": "Como vs Cagliari",
-          "pick": "Draw",
-          "odds": 5.6,
-          "market": "1X2"
+          "match": "Milwaukee Bucks vs Miami Heat",
+          "pick": "Miami Heat Moneyline",
+          "odds": 2.1,
+          "market": "Moneyline"
         }
       ]
     }
@@ -132,92 +132,92 @@
   "matches": [
     {
       "category": "football",
-      "country": "FRA",
-      "match": "Nice vs Montpellier",
-      "pick": "Nice Win",
-      "odds": 1.72,
-      "confidence": 81,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ESP",
-      "match": "Girona vs Getafe",
-      "pick": "Girona Win",
-      "odds": 1.9,
-      "confidence": 76,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "GER",
-      "match": "Hannover 96 vs Schalke 04",
-      "pick": "Over 2.5 Goals",
-      "odds": 1.68,
-      "confidence": 83,
-      "market": "Over/Under 2.5",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ITA",
-      "match": "Genoa vs Hellas Verona",
-      "pick": "Under 2.5 Goals",
+      "country": "ROU",
+      "match": "FCSB vs Petrolul Ploie\u0219ti",
+      "pick": "FCSB Win",
       "odds": 1.62,
-      "confidence": 85,
-      "market": "Over/Under 2.5",
+      "confidence": 84,
+      "market": "Full Time Result",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ROU",
+      "match": "Universitatea Craiova vs Dinamo Bucure\u0219ti",
+      "pick": "Both Teams to Score - Yes",
+      "odds": 1.85,
+      "confidence": 76,
+      "market": "Both Teams to Score",
       "date_badge": "Today"
     },
     {
       "category": "football",
       "country": "ENG",
-      "match": "Watford vs Bristol City",
-      "pick": "Both Teams to Score - Yes",
-      "odds": 1.75,
-      "confidence": 78,
-      "market": "Both Teams To Score",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ROU",
-      "match": "FC Boto\u0219ani vs Universitatea Craiova",
-      "pick": "Universitatea Craiova Win",
-      "odds": 1.85,
-      "confidence": 77,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "football",
-      "country": "ROU",
-      "match": "Dinamo Bucure\u0219ti vs CFR Cluj",
-      "pick": "CFR Cluj Win",
-      "odds": 2.15,
-      "confidence": 70,
-      "market": "1X2",
-      "date_badge": "Today"
-    },
-    {
-      "category": "tennis",
-      "country": "GLOBAL",
-      "match": "Jannik Sinner vs Carlos Alcaraz",
-      "pick": "Over 22.5 Games",
-      "odds": 1.83,
-      "confidence": 80,
-      "market": "Total Games",
-      "date_badge": "Today"
-    },
-    {
-      "category": "tennis",
-      "country": "GLOBAL",
-      "match": "Alexander Zverev vs Daniil Medvedev",
-      "pick": "Alexander Zverev Win",
-      "odds": 1.75,
+      "match": "Wrexham vs Mansfield Town",
+      "pick": "Wrexham Win",
+      "odds": 1.95,
       "confidence": 75,
+      "market": "Full Time Result",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ESP",
+      "match": "Real Zaragoza vs Malaga",
+      "pick": "Under 2.5 Goals",
+      "odds": 1.53,
+      "confidence": 82,
+      "market": "Over/Under Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ITA",
+      "match": "Brescia vs Bari",
+      "pick": "Draw or Bari",
+      "odds": 1.57,
+      "confidence": 78,
+      "market": "Double Chance",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "GER",
+      "match": "Dynamo Dresden vs Saarbr\u00fccken",
+      "pick": "Over 2.5 Goals",
+      "odds": 1.75,
+      "confidence": 80,
+      "market": "Over/Under Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "FRA",
+      "match": "Red Star vs Martigues",
+      "pick": "Red Star Win",
+      "odds": 1.8,
+      "confidence": 77,
+      "market": "Full Time Result",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Jannik Sinner vs Alexander Zverev",
+      "pick": "Jannik Sinner Win",
+      "odds": 1.48,
+      "confidence": 88,
       "market": "Match Winner",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Carlos Alcaraz vs Daniil Medvedev",
+      "pick": "Over 22.5 Games",
+      "odds": 1.82,
+      "confidence": 79,
+      "market": "Total Games",
       "date_badge": "Today"
     },
     {
@@ -225,93 +225,83 @@
       "country": "GLOBAL",
       "match": "Taylor Fritz vs Alex de Minaur",
       "pick": "Taylor Fritz Win",
-      "odds": 1.65,
-      "confidence": 82,
+      "odds": 1.7,
+      "confidence": 74,
       "market": "Match Winner",
-      "date_badge": "Today"
-    },
-    {
-      "category": "tennis",
-      "country": "GLOBAL",
-      "match": "Aryna Sabalenka vs Iga Swiatek",
-      "pick": "Over 21.5 Games",
-      "odds": 1.88,
-      "confidence": 76,
-      "market": "Total Games",
       "date_badge": "Today"
     },
     {
       "category": "nba",
       "country": "USA",
-      "match": "Boston Celtics vs Philadelphia 76ers",
+      "match": "Boston Celtics vs Brooklyn Nets",
       "pick": "Boston Celtics -5.5",
-      "odds": 1.9,
-      "confidence": 79,
+      "odds": 1.55,
+      "confidence": 85,
       "market": "Point Spread",
       "date_badge": "Today"
     },
     {
       "category": "nba",
       "country": "USA",
-      "match": "Oklahoma City Thunder vs Los Angeles Lakers",
-      "pick": "Over 228.5 Points",
-      "odds": 1.87,
-      "confidence": 77,
-      "market": "Total Points",
-      "date_badge": "Today"
-    },
-    {
-      "category": "nba",
-      "country": "USA",
-      "match": "Denver Nuggets vs Dallas Mavericks",
-      "pick": "Nikola Jokic Over 12.5 Rebounds",
-      "odds": 1.8,
-      "confidence": 84,
-      "market": "Player Props",
-      "date_badge": "Today"
-    },
-    {
-      "category": "nba",
-      "country": "USA",
       "match": "Golden State Warriors vs San Antonio Spurs",
-      "pick": "Golden State Warriors Win",
-      "odds": 1.62,
-      "confidence": 81,
-      "market": "Moneyline",
-      "date_badge": "Today"
-    },
-    {
-      "category": "cs2",
-      "country": "GLOBAL",
-      "match": "Vitality vs FaZe Clan",
-      "pick": "Vitality Win",
-      "odds": 1.7,
+      "pick": "Golden State Warriors -4.5",
+      "odds": 1.88,
       "confidence": 78,
+      "market": "Point Spread",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Oklahoma City Thunder vs Phoenix Suns",
+      "pick": "Over 226.5 Points",
+      "odds": 1.9,
+      "confidence": 81,
+      "market": "Game Total Points",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Milwaukee Bucks vs Miami Heat",
+      "pick": "Giannis Antetokounmpo Over 29.5 Points",
+      "odds": 1.83,
+      "confidence": 83,
+      "market": "Player Points Props",
+      "date_badge": "Today"
+    },
+    {
+      "category": "cs2",
+      "country": "GLOBAL",
+      "match": "Team Vitality vs Heroic",
+      "pick": "Team Vitality Win",
+      "odds": 1.35,
+      "confidence": 89,
       "market": "Match Winner",
       "date_badge": "Today"
     },
     {
       "category": "cs2",
       "country": "GLOBAL",
-      "match": "Natus Vincere vs G2 Esports",
+      "match": "G2 Esports vs Natus Vincere",
       "pick": "Over 2.5 Maps",
-      "odds": 1.95,
-      "confidence": 72,
-      "market": "Total Maps",
+      "odds": 1.9,
+      "confidence": 76,
+      "market": "Total Maps Played",
       "date_badge": "Today"
     },
     {
       "category": "cs2",
       "country": "GLOBAL",
-      "match": "Team Spirit vs MOUZ",
-      "pick": "Team Spirit Win",
-      "odds": 1.65,
-      "confidence": 80,
-      "market": "Match Winner",
+      "match": "FaZe Clan vs MOUZ",
+      "pick": "FaZe Clan +1.5 Map Handicap",
+      "odds": 1.45,
+      "confidence": 84,
+      "market": "Map Handicap",
       "date_badge": "Today"
     }
   ],
   "api_quota_exceeded": false,
   "error_msg": "",
-  "last_updated": "2026-11-13"
+  "last_updated": "2026-11-14"
 }
