@@ -1,7 +1,297 @@
 {
-  "api_quota_exceeded": true,
-  "error_msg": "Model gemini-flash-latest failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 250000, model: gemini-3.8-flash, description: Generate content input tokens per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 59.512690394s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://aistudio.google.com/docs/rate-limits\"\n}\n, violations {\n  description: \"Generate content input tokens per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\"\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerMinute-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.8-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250000\n}\n, retry_delay {\n  seconds: 59\n}\n]",
-  "last_updated": "2026-11-24",
-  "tickets": [],
-  "matches": []
+  "tickets": [
+    {
+      "name": "Safe Anchor Slip",
+      "target_odds": 4.96,
+      "risk": "Low",
+      "date_range": "Today Only",
+      "picks": [
+        {
+          "match": "Arsenal vs Monaco",
+          "pick": "Arsenal Win",
+          "odds": 1.35,
+          "date": "2026-11-25"
+        },
+        {
+          "match": "Inter Milan vs RB Leipzig",
+          "pick": "Inter Milan Win or Draw",
+          "odds": 1.18,
+          "date": "2026-11-25"
+        },
+        {
+          "match": "CFR Cluj vs FCSB",
+          "pick": "Under 3.5 Goals",
+          "odds": 1.28,
+          "date": "2026-11-25"
+        },
+        {
+          "match": "Boston Celtics vs New York Knicks",
+          "pick": "Boston Celtics Moneyline",
+          "odds": 1.45,
+          "date": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "name": "Value Combo Slip",
+      "target_odds": 10.69,
+      "risk": "Medium",
+      "date_range": "Today Only",
+      "picks": [
+        {
+          "match": "Liverpool vs Real Madrid",
+          "pick": "Liverpool Win",
+          "odds": 1.95,
+          "date": "2026-11-25"
+        },
+        {
+          "match": "Bayern Munich vs PSG",
+          "pick": "Both Teams To Score & Over 2.5",
+          "odds": 1.75,
+          "date": "2026-11-25"
+        },
+        {
+          "match": "Boston Celtics vs New York Knicks",
+          "pick": "Boston Celtics -4.5",
+          "odds": 1.9,
+          "date": "2026-11-25"
+        },
+        {
+          "match": "Natus Vincere vs FaZe Clan",
+          "pick": "NaVi Win",
+          "odds": 1.65,
+          "date": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "name": "High-Yield Slip",
+      "target_odds": 25.52,
+      "risk": "High",
+      "date_range": "Next 3 Days",
+      "picks": [
+        {
+          "match": "Nottingham Forest vs Chelsea",
+          "pick": "Chelsea Win",
+          "odds": 2.8,
+          "date": "2026-11-27"
+        },
+        {
+          "match": "Ipswich Town vs Aston Villa",
+          "pick": "Aston Villa Win",
+          "odds": 1.96,
+          "date": "2026-11-28"
+        },
+        {
+          "match": "Leeds United vs Coventry City",
+          "pick": "Leeds United Win",
+          "odds": 1.5,
+          "date": "2026-11-28"
+        },
+        {
+          "match": "Manchester United vs Brentford",
+          "pick": "Manchester United Win & BTTS",
+          "odds": 3.1,
+          "date": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "name": "Speculative Loto Ticket",
+      "target_odds": 147.38,
+      "risk": "Extreme",
+      "date_range": "Next 3 Days",
+      "picks": [
+        {
+          "match": "Venezia vs Bologna",
+          "pick": "Draw",
+          "odds": 3.4,
+          "date": "2026-11-27"
+        },
+        {
+          "match": "Torino vs Lazio",
+          "pick": "Lazio Win & Under 2.5 Goals",
+          "odds": 4.2,
+          "date": "2026-11-28"
+        },
+        {
+          "match": "Werder Bremen vs Borussia Monchengladbach",
+          "pick": "Draw",
+          "odds": 4.3,
+          "date": "2026-11-27"
+        },
+        {
+          "match": "Elche CF vs Atl\u00e9tico Madrid",
+          "pick": "Atl\u00e9tico Madrid -1.5 Asian Handicap",
+          "odds": 2.4,
+          "date": "2026-11-28"
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "category": "football",
+      "country": "ENG",
+      "match": "Liverpool vs Real Madrid",
+      "pick": "Liverpool Moneyline",
+      "odds": 1.95,
+      "confidence": 76,
+      "market": "Match Result",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ENG",
+      "match": "Arsenal vs Monaco",
+      "pick": "Arsenal -1.5 Asian Handicap",
+      "odds": 1.72,
+      "confidence": 82,
+      "market": "Asian Handicap",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ESP",
+      "match": "Barcelona vs Brest",
+      "pick": "Over 3.5 Total Goals",
+      "odds": 1.85,
+      "confidence": 80,
+      "market": "Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "GER",
+      "match": "Bayern Munich vs PSG",
+      "pick": "Both Teams To Score - Yes",
+      "odds": 1.53,
+      "confidence": 85,
+      "market": "Both Teams To Score",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ITA",
+      "match": "Inter Milan vs RB Leipzig",
+      "pick": "Inter Milan Win",
+      "odds": 1.65,
+      "confidence": 81,
+      "market": "Match Result",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "FRA",
+      "match": "Lille vs Bologna",
+      "pick": "Lille Draw No Bet",
+      "odds": 1.57,
+      "confidence": 83,
+      "market": "Draw No Bet",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ROU",
+      "match": "CFR Cluj vs FCSB",
+      "pick": "Under 2.5 Goals",
+      "odds": 1.7,
+      "confidence": 78,
+      "market": "Total Goals",
+      "date_badge": "Today"
+    },
+    {
+      "category": "football",
+      "country": "ROU",
+      "match": "Universitatea Craiova vs Rapid Bucuresti",
+      "pick": "1X & Under 3.5 Goals",
+      "odds": 1.6,
+      "confidence": 80,
+      "market": "Double Chance & Total",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Jannik Sinner vs Carlos Alcaraz",
+      "pick": "Over 22.5 Games",
+      "odds": 1.85,
+      "confidence": 77,
+      "market": "Total Games",
+      "date_badge": "Today"
+    },
+    {
+      "category": "tennis",
+      "country": "GLOBAL",
+      "match": "Alexander Zverev vs Daniil Medvedev",
+      "pick": "Alexander Zverev Win",
+      "odds": 1.75,
+      "confidence": 79,
+      "market": "Match Winner",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Boston Celtics vs New York Knicks",
+      "pick": "Boston Celtics -4.5",
+      "odds": 1.9,
+      "confidence": 78,
+      "market": "Point Spread",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Los Angeles Lakers vs Denver Nuggets",
+      "pick": "Over 228.5 Total Points",
+      "odds": 1.88,
+      "confidence": 80,
+      "market": "Total Points",
+      "date_badge": "Today"
+    },
+    {
+      "category": "nba",
+      "country": "USA",
+      "match": "Golden State Warriors vs Oklahoma City Thunder",
+      "pick": "OKC Thunder Moneyline",
+      "odds": 1.76,
+      "confidence": 81,
+      "market": "Moneyline",
+      "date_badge": "Today"
+    },
+    {
+      "category": "cs2",
+      "country": "GLOBAL",
+      "match": "Natus Vincere vs FaZe Clan",
+      "pick": "NaVi Map 1 Winner",
+      "odds": 1.68,
+      "confidence": 82,
+      "market": "Map 1 Winner",
+      "date_badge": "Today"
+    },
+    {
+      "category": "cs2",
+      "country": "GLOBAL",
+      "match": "Team Vitality vs Team Spirit",
+      "pick": "Over 2.5 Maps",
+      "odds": 1.95,
+      "confidence": 75,
+      "market": "Total Maps",
+      "date_badge": "Today"
+    },
+    {
+      "category": "cs2",
+      "country": "GLOBAL",
+      "match": "G2 Esports vs Astralis",
+      "pick": "G2 Esports -1.5 Maps",
+      "odds": 1.8,
+      "confidence": 79,
+      "market": "Map Handicap",
+      "date_badge": "Today"
+    }
+  ],
+  "api_quota_exceeded": false,
+  "error_msg": "",
+  "last_updated": "2026-11-25"
 }
